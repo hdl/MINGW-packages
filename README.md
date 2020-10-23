@@ -9,15 +9,15 @@ This repository contains package scripts for [electronic design automation (EDA)
 
 # Motivation
 
-Multiple open source and/or free EDA tools are developed and primarily used on GNU/Linux platforms. Typically, builds are managed with tools such as make or cmake, and GCC or LLVM/clang are used for compiling. Migrating all those build systems to *native* Windows toolchains can be painful. Using PKGBUILD files for MINGW64 allows reusing the existing plumbing and, at the same time, prduced binaries can be use on Windows natively.
+Multiple open source and/or free EDA tools are developed and primarily used on GNU/Linux platforms. Typically, builds are managed with tools such as make or cmake, and GCC or LLVM/clang are used for compiling. Migrating all those build systems to *native* Windows toolchains can be painful. Using PKGBUILD files for MINGW64 allows reusing the existing plumbing and, at the same time, produced binaries can be used on Windows natively.
 
-Overall, there are four approaches for providing *great prepackaged/prebuilt and easy-to-set-up EDA tooling environments*:
+Overall, there are a handful of approaches for providing *great prepackaged/prebuilt and easy-to-set-up EDA tooling environments*:
 
 ## Default package managers
 
 Each GNU/Linux distribution has a default package manager: `apt-get`/`apt` on Debian/Ubuntu/LinuxMint, `yum/dnf` on RedHat/CentOS/Fedora, `pacman` on ArchLinux, etc. Therefore, the most natural procedure is to install tooling through the default package manager, since that ensures the best compatibility and stability.
 
-However, on the one hand, it is a huge effort to develop and maintain multiple recipes for each tool and officially supported architecture. On the other hand, the release schedule and packaging guidelines of some distributions make it unfeasible to keep bleeding-edge projects up to date. That is the case of e.g. Debian or CentOS, which are known to be stable and slowly updating environments.
+However, on the one hand, it is a huge effort to develop and maintain multiple recipes for each tool and for each officially supported architecture on each distribution. On the other hand, the release schedule and packaging guidelines of some distributions make it unfeasible to keep bleeding-edge projects up to date. That is the case of e.g. Debian or CentOS, which are known to be stable and slowly updating environments.
 
 Therefore, some projects provide non-official recipes for users to build their own `deb`/`rpm`/`tar.xz` packages. For example: [SymbiFlow/symbiflow-arch-pkgs](https://github.com/SymbiFlow/symbiflow-arch-pkgs). Fortunately, on Windows it is easier to upstream recipes because `pacman` is the only supported Unix alike package manager. That's why this repo was created.
 
