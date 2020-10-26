@@ -59,7 +59,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 
 - [ ] [bitman](https://github.com/khoapham/bitman)
 - [ ] [bootlector](http://fmv.jku.at/boolector/)
-- [ ] [ghdl](https://github.com/ghdl/ghdl)
+- [ ] [ghdl](https://github.com/ghdl/ghdl) **WIP**
   - [msys2/MINGW-packages#5757](https://github.com/msys2/MINGW-packages/pull/5757)
   - [msys2/MINGW-packages#6688](https://github.com/msys2/MINGW-packages/pull/6688)
 - [ ] [ghdl-yosys-plugin](https://github.com/ghdl/ghdl-yosys-plugin)
@@ -71,7 +71,8 @@ Other than that, branch `main` and other branches contain sources providing diff
   - [mingw-w64-gtkwave](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-gtkwave)
   - [packages.msys2.org/package/mingw-w64-i686-gtkwave](https://packages.msys2.org/package/mingw-w64-i686-gtkwave)
   - [packages.msys2.org/package/mingw-w64-x86_64-gtkwave](https://packages.msys2.org/package/mingw-w64-x86_64-gtkwave)
-- [ ] [icestorm](https://github.com/cliffordwolf/icestorm)
+- [ ] [icestorm](https://github.com/cliffordwolf/icestorm) **WIP**
+  - [hdl/MINGW-packages: icestorm | mingw-w64-icestorm](https://github.com/hdl/MINGW-packages/tree/icestorm/mingw-w64-icestorm)
 - [ ] [iverilog](https://github.com/steveicarus/iverilog)
 - [ ] [nextpnr](https://github.com/YosysHQ/nextpnr)
 - [ ] [prjtrellis](https://github.com/SymbiFlow/prjtrellis)
