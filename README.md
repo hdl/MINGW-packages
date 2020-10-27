@@ -83,9 +83,12 @@ Other than that, branch `main` and other branches contain sources providing diff
 - [ ] [prjtrellis](https://github.com/SymbiFlow/prjtrellis)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - [ ] [sigrok-cli](https://sigrok.org/wiki/Sigrok-cli)
-- [ ] [surelog](https://github.com/alainmarcel/Surelog)
+- [ ] [surelog](https://github.com/alainmarcel/Surelog) **WIP**
+  - [hdl/MINGW-packages: surelog | mingw-w64-surelog](https://github.com/hdl/MINGW-packages/tree/surelog/mingw-w64-surelog)
 - [ ] [symbiyosys](https://github.com/YosysHQ/SymbiYosys)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
+- [ ] [UHDM](https://github.com/alainmarcel/UHDM) **WIP**
+  - [hdl/MINGW-packages: UHDM | mingw-w64-UHDM](https://github.com/hdl/MINGW-packages/tree/UHDM/mingw-w64-UHDM)
 - [ ] [verible](https://github.com/google/verible)
 - [x] [verilator](https://github.com/verilator/verilator)
   - [mingw-w64-verilator](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator)
@@ -97,7 +100,8 @@ Other than that, branch `main` and other branches contain sources providing diff
   - [packages.msys2.org/package/mingw-w64-i686-yices](https://packages.msys2.org/package/mingw-w64-i686-yices)
   - [packages.msys2.org/package/mingw-w64-x86_64-yices](https://packages.msys2.org/package/mingw-w64-x86_64-yices)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
-- [ ] [yosys](https://github.com/YosysHQ/yosys)
+- [ ] [yosys](https://github.com/YosysHQ/yosys) **WIP**
+  - [hdl/MINGW-packages: yosys | mingw-w64-yosys](https://github.com/hdl/MINGW-packages/tree/yosys/mingw-w64-yosys)
 - [x] [z3](https://github.com/Z3Prover/z3)
   - [mingw-w64-z3](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator)
   - [packages.msys2.org/package/mingw-w64-i686-z3](https://packages.msys2.org/package/mingw-w64-i686-z3)
