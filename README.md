@@ -31,7 +31,7 @@ This provides the easiest setup approach and it allows having multiple versions 
 
 ## OCI container images
 
-[ghdl/docker](https://github.com/ghdl/docker), [eine/symbiflow-containers](https://github.com/eine/symbiflow-containers), [dbhi/docker](https://github.com/dbhi/docker) (uses [dbhi/qus](https://github.com/dbhi/qus)), [alpin3/ulx3s](https://github.com/alpin3/ulx3s)... provide Linux container images, which can be used on any platform with Docker or Podman support.
+[ghdl/docker](https://github.com/ghdl/docker), [hdl/containers](https://github.com/hdl/containers), [dbhi/docker](https://github.com/dbhi/docker) (uses [dbhi/qus](https://github.com/dbhi/qus)), [alpin3/ulx3s](https://github.com/alpin3/ulx3s)... provide Linux container images, which can be used on any platform with Docker or Podman support.
 
 This provides the less invasive solution, because no tools are installed on the host, besides the container runtime. Moreover, the behaviour of the tools is exactly the same, regardless of the host OS. However, on Windows, accessing USB devices from containers is not straightforward. See [ ghdl/docker: usbip/README.md > USB/IP protocol support for Docker Desktop](https://github.com/ghdl/docker/tree/master/usbip).
 
