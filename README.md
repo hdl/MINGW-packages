@@ -87,6 +87,7 @@ Other than that, branch `main` and other branches contain sources providing diff
   - [hdl/MINGW-packages: surelog | mingw-w64-surelog](https://github.com/hdl/MINGW-packages/tree/surelog/mingw-w64-surelog)
 - [ ] [symbiyosys](https://github.com/YosysHQ/SymbiYosys)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
+- [ ] [teuchos/trilinos](https://trilinos.github.io/teuchos.html)
 - [ ] [UHDM](https://github.com/alainmarcel/UHDM) **WIP**
   - [hdl/MINGW-packages: UHDM | mingw-w64-UHDM](https://github.com/hdl/MINGW-packages/tree/UHDM/mingw-w64-UHDM)
 - [ ] [verible](https://github.com/google/verible)
@@ -95,6 +96,7 @@ Other than that, branch `main` and other branches contain sources providing diff
   - [packages.msys2.org/package/mingw-w64-i686-verilator](https://packages.msys2.org/package/mingw-w64-i686-verilator)
   - [packages.msys2.org/package/mingw-w64-x86_64-verilator](https://packages.msys2.org/package/mingw-w64-x86_64-verilator)
 - [ ] [vpr/vtr](https://github.com/verilog-to-routing/vtr-verilog-to-routing)
+- [ ] [xyce](https://xyce.sandia.gov/)
 - [x] [yices 2](https://github.com/SRI-CSL/yices2)
   - [mingw-w64-yices](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-yices)
   - [packages.msys2.org/package/mingw-w64-i686-yices](https://packages.msys2.org/package/mingw-w64-i686-yices)
