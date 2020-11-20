@@ -1,5 +1,5 @@
 <p align="center">
-  <a title="GitHub Actions" href="https://github.com/hdl/MINGW-packages/actions?query=workflow%3Amain"><img alt="'main' workflow Status" src="https://img.shields.io/github/workflow/status/hdl/MINGW-packages/main?longCache=true&style=flat-square&label=build&logo=github"></a><!--
+  <a title="GitHub Actions" href="https://github.com/hdl/MINGW-packages/actions?query=workflow%3Amain"><img alt="'main' workflow Status" src="https://img.shields.io/github/workflow/status/hdl/MINGW-packages/main/master?longCache=true&style=flat-square&label=build&logo=github"></a><!--
   -->
 </p>
 
