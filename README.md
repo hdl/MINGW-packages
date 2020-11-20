@@ -14,7 +14,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 - [ ] [bitman](https://github.com/khoapham/bitman)
 - [ ] [bootlector](http://fmv.jku.at/boolector/)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
-- [x] [ghdl](https://github.com/ghdl/ghdl) : [mingw-w64-ghdl](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ghdl) ([i686](https://packages.msys2.org/package/mingw-w64-i686-ghdl), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-ghdl))
+- [x] [ghdl](https://github.com/ghdl/ghdl) : [mingw-w64-ghdl](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ghdl) ([i686](https://packages.msys2.org/package/mingw-w64-i686-ghdl-mcode), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-ghdl-llvm))
   - msys2/MINGW-packages issues: [#5757](https://github.com/msys2/MINGW-packages/pull/5757) [#6688](https://github.com/msys2/MINGW-packages/pull/6688)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - [ ] [ghdl-yosys-plugin](https://github.com/ghdl/ghdl-yosys-plugin)
