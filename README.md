@@ -5,7 +5,7 @@
 
 # MINGW-packages for EDA
 
-This repository contains package scripts for [electronic design automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation) tools/projects to be built as MinGW-w64 targets on [MSYS2](https://www.msys2.org/). The upstream of this repo is [msys2/MINGW-packages](https://github.com/msys2/MINGW-packages). Branch [upstream](https://github.com/hdl/MINGW-packages/tree/upstream) is kept in sync with that.
+This repository contains package scripts for [electronic design automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation) tools/projects to be built as MinGW-w64 targets on [MSYS2](https://www.msys2.org/). The upstream of this repo is [msys2/MINGW-packages](https://github.com/msys2/MINGW-packages). Branch [master](https://github.com/hdl/MINGW-packages/tree/master) is kept in sync with that.
 
 # Motivation
 
@@ -53,7 +53,7 @@ In this regard, [SymbiFlow/make-env](https://github.com/SymbiFlow/make-env) is a
 
 # Development
 
-Branch [upstream](https://github.com/hdl/MINGW-packages/tree/upstream) of this repo is kept in sync with [msys2/MINGW-packages](https://github.com/msys2/MINGW-packages). Therefore, all the PRs involving modifications which are meant to be upstreamed should be opened against branch `upstream`.
+Branch [master](https://github.com/hdl/MINGW-packages/tree/master) of this repo is kept in sync with [msys2/MINGW-packages](https://github.com/msys2/MINGW-packages). Therefore, all the PRs involving modifications which are meant to be upstreamed should be opened against branch `master`.
 
 Other than that, branch `main` and other branches contain sources providing different configuration options and/or features which were not upstreamed yet.
 
