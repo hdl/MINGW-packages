@@ -23,6 +23,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 - [x] [gtkwave](https://github.com/gtkwave/gtkwave) : [mingw-w64-gtkwave](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-gtkwave)  ([i686](https://packages.msys2.org/package/mingw-w64-i686-gtkwave), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-gtkwave))
 - [ ] [icestorm](https://github.com/cliffordwolf/icestorm) **WIP**
   - [hdl/MINGW-packages: icestorm | mingw-w64-icestorm](https://github.com/hdl/MINGW-packages/tree/icestorm/mingw-w64-icestorm)
+  - msys2/MINGW-packages issues: [#7304](https://github.com/msys2/MINGW-packages/pull/7304)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - [ ] [iverilog](https://github.com/steveicarus/iverilog)
 - [ ] [nextpnr](https://github.com/YosysHQ/nextpnr)
