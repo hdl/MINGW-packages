@@ -56,8 +56,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 - [ ] [ecpprog](https://github.com/gregdavill/ecpprog)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - [ ] [fujprog](https://github.com/kost/fujprog)
-- [ ] [icesprog](https://github.com/wuxx/icesugar/tree/master/tools) **WIP**
-  - [hdl/MINGW-packages: icesprog | mingw-w64-icesprog](https://github.com/hdl/MINGW-packages/tree/icesprog/mingw-w64-icesprog)
+- [x] [icesprog](https://github.com/wuxx/icesugar/tree/master/tools) : [mingw-w64-icesprog](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-icesprog) ([i686](https://packages.msys2.org/package/mingw-w64-i686-icesprog), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-icesprog))
   - msys2/MINGW-packages issues: [#7308](https://github.com/msys2/MINGW-packages/pull/7308)
 - [ ] [openFPGALoader](https://github.com/trabucayre/openFPGALoader)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
