@@ -29,7 +29,9 @@ Other than that, branch `main` and other branches contain sources providing diff
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - [ ] [iverilog](https://github.com/steveicarus/iverilog) **WIP**
   - [hdl/MINGW-packages@iverilog: mingw-w64-iverilog](https://github.com/hdl/MINGW-packages/tree/iverilog/mingw-w64-iverilog)
-  - msys2/MINGW-packages issues: [#7341](https://github.com/msys2/MINGW-packages/pull/7341)
+  - Refs:
+    - [msys2/MINGW-packages#7341](https://github.com/msys2/MINGW-packages/pull/7341)
+    - [steveicarus/iverilog#398](https://github.com/steveicarus/iverilog/pull/398)
 - [ ] [nextpnr](https://github.com/YosysHQ/nextpnr)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - [ ] [prjtrellis](https://github.com/SymbiFlow/prjtrellis)
