@@ -1,0 +1,42 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+
+  test:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        msystem: [
+          MINGW64,
+          MINGW32
+        ]
+        tool: [
+          ghdl,
+          #graphviz,
+          #gtkwave,
+          #verilator,
+          #z3,
+          #dfu-util,
+          #icesprog,
+          #openocd
+        ]
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - uses: msys2/setup-msys2@v2
+        with:
+          msystem: ${{ matrix.msystem }}
+          update: true
+
+      - run: ./test/${{ matrix.tool }}.sh
