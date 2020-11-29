@@ -9,7 +9,7 @@ printf '\n::group::Environment\n'
   echo "CXX: $CXX"
 echo '::endgroup::'
 
-printf '\n::group::Install ghdl through pacman\n'
+printf '\n::group::Install icesprog through pacman\n'
   case "$MSYSTEM" in
     MINGW64|mingw64)
       pacman -S --noconfirm mingw-w64-x86_64-icesprog
