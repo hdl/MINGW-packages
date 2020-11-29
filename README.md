@@ -64,6 +64,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 - [ ] [fujprog](https://github.com/kost/fujprog)
 - [x] [icesprog](https://github.com/wuxx/icesugar/tree/master/tools) : [mingw-w64-icesprog](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-icesprog) ([i686](https://packages.msys2.org/package/mingw-w64-i686-icesprog), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-icesprog))
   - msys2/MINGW-packages issues: [#7308](https://github.com/msys2/MINGW-packages/pull/7308)
-- [ ] [openFPGALoader](https://github.com/trabucayre/openFPGALoader)
+- [ ] [openFPGALoader](https://github.com/trabucayre/openFPGALoader) **WIP**
+  - [hdl/MINGW-packages: openFPGALoader | mingw-w64-openFPGALoader](https://github.com/hdl/MINGW-packages/tree/openFPGALoader/mingw-w64-openFPGALoader)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - [x] [openocd](http://openocd.org/) : [mingw-w64-openocd](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-openocd) ([i686](https://packages.msys2.org/package/mingw-w64-i686-openocd), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-openocd4))
