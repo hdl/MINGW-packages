@@ -21,7 +21,7 @@ jobs:
           #gtkwave,
           #verilator,
           #z3,
-          #dfu-util,
+          dfu-util,
           icesprog,
           #openocd
         ]
