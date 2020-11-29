@@ -57,7 +57,9 @@ Other than that, branch `main` and other branches contain sources providing diff
 
 - [x] [dfu-util](http://dfu-util.sourceforge.net/) : [mingw-w64-dfu-util](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-dfu-util) ([i686](https://packages.msys2.org/package/mingw-w64-i686-dfu-util), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-dfu-util))
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
-- [ ] [ecpprog](https://github.com/gregdavill/ecpprog)
+- [ ] [ecpprog](https://github.com/gregdavill/ecpprog) **WIP**
+  - [hdl/MINGW-packages: ecpprog | mingw-w64-ecpprog](https://github.com/hdl/MINGW-packages/tree/ecpprog/mingw-w64-ecpprog)
+  - msys2/MINGW-packages issues: [#7349](https://github.com/msys2/MINGW-packages/pull/7349)
   - Ref [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - [ ] [fujprog](https://github.com/kost/fujprog)
 - [x] [icesprog](https://github.com/wuxx/icesugar/tree/master/tools) : [mingw-w64-icesprog](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-icesprog) ([i686](https://packages.msys2.org/package/mingw-w64-i686-icesprog), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-icesprog))
