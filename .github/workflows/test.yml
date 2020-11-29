@@ -22,7 +22,7 @@ jobs:
           #verilator,
           #z3,
           #dfu-util,
-          #icesprog,
+          icesprog,
           #openocd
         ]
     defaults:
