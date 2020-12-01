@@ -41,6 +41,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 - [ ] [**UHDM**](https://github.com/alainmarcel/UHDM) **WIP** [hdl/MINGW-packages@UHDM: mingw-w64-UHDM](https://github.com/hdl/MINGW-packages/tree/UHDM/mingw-w64-UHDM)
 - [ ] [**verible**](https://github.com/google/verible)
 - [x] [**verilator**](https://github.com/verilator/verilator) : [mingw-w64-verilator](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator) ([i686](https://packages.msys2.org/package/mingw-w64-i686-verilator), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-verilator))
+- [ ] [**VHDLproc**](https://github.com/nobodywasishere/VHDLproc)
 - [ ] [**vpr/vtr**](https://github.com/verilog-to-routing/vtr-verilog-to-routing)
 - [ ] [**xyce**](https://xyce.sandia.gov/)
 - [x] [**yices 2**](https://github.com/SRI-CSL/yices2) : [mingw-w64-yices](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-yices) ([i686](https://packages.msys2.org/package/mingw-w64-i686-yices), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-yices))
