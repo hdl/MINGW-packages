@@ -31,18 +31,18 @@ printf '\n::group::Install git through pacman\n'
   pacman -S --noconfirm git
 echo '::endgroup::'
 
-printf '\n::group::ivtest\n'
-  git clone git://github.com/steveicarus/ivtest.git
-  cd ivtest
-
-  perl update_msys2_report.pl
-  perl vvp_reg.pl
-  perl vpi_reg.pl
-echo '::endgroup::'
-
 printf '\n::group::iverilog-tutorial\n'
   git clone https://github.com/albertxie/iverilog-tutorial
   cd iverilog-tutorial/code_samples
   iverilog -o simple.vvp simple.v simple_tb.v
   vvp simple.vvp
+echo '::endgroup::'
+
+printf '\n::group::ivtest\n'
+  git clone https://github.com/steveicarus/ivtest
+  cd ivtest
+
+  perl update_msys2_report.pl devel
+  perl vvp_reg.pl
+  perl vpi_reg.pl
 echo '::endgroup::'
