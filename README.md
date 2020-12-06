@@ -26,7 +26,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 - [ ] [**icestorm**](https://hdl.github.io/awesome/items/icestorm) **WIP** [hdl/MINGW-packages@icestorm: mingw-w64-icestorm](https://github.com/hdl/MINGW-packages/tree/icestorm/mingw-w64-icestorm)
   - [msys2/MINGW-packages#7304](https://github.com/msys2/MINGW-packages/pull/7304)
   - [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
-- [ ] [**iverilog**](https://hdl.github.io/awesome/items/iverilog) **WIP** [hdl/MINGW-packages@iverilog: mingw-w64-iverilog](https://github.com/hdl/MINGW-packages/tree/iverilog/mingw-w64-iverilog)
+- [x] [**iverilog**](https://hdl.github.io/awesome/items/iverilog) : [mingw-w64-iverilog](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-iverilog) ([i686](https://packages.msys2.org/package/mingw-w64-i686-iverilog), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-iverilog))
   - [msys2/MINGW-packages#7341](https://github.com/msys2/MINGW-packages/pull/7341)
   - [steveicarus/iverilog#398](https://github.com/steveicarus/iverilog/pull/398)
 - [ ] [**ImHex**](https://github.com/WerWolv/ImHex)
