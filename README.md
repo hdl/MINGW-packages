@@ -14,7 +14,7 @@ The upstream of this repo is [msys2/MINGW-packages](https://github.com/msys2/MIN
 Other than that, branch `main` and other branches contain sources providing different configuration options and/or features which were not upstreamed yet.
 
 - [ ] [**BitMan**](https://github.com/khoapham/bitman)
-- [ ] [**Bootlector**](https://hdl.github.io/awesome/items/bootlector/)
+- [ ] [**Boolector**](https://hdl.github.io/awesome/items/boolector/)
   - [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - [x] [**GHDL**](https://hdl.github.io/awesome/items/ghdl) : [mingw-w64-ghdl](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ghdl) ([i686](https://packages.msys2.org/package/mingw-w64-i686-ghdl-mcode), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-ghdl-llvm))
   - msys2/MINGW-packages issues: [#5757](https://github.com/msys2/MINGW-packages/pull/5757) [#6688](https://github.com/msys2/MINGW-packages/pull/6688)
