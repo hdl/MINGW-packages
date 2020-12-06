@@ -23,6 +23,7 @@ jobs:
           #z3,
           dfu-util,
           icesprog,
+          icestorm,
           iverilog,
           #openocd
         ]
