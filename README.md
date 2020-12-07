@@ -55,6 +55,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 ## Board programming
 
 - 🟪 [**dfu-util**](https://hdl.github.io/awesome/items/dfu-util) : [mingw-w64-dfu-util](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-dfu-util) ([i686](https://packages.msys2.org/package/mingw-w64-i686-dfu-util), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-dfu-util))
+  - [msys2/MINGW-packages#7400](https://github.com/msys2/MINGW-packages/pull/7400)
   - [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - 🟩 [**ecpprog**](https://hdl.github.io/awesome/items/ecpprog) **WIP** [hdl/MINGW-packages@ecpprog: mingw-w64-ecpprog](https://github.com/hdl/MINGW-packages/tree/ecpprog/mingw-w64-ecpprog)
   - [msys2/MINGW-packages#7349](https://github.com/msys2/MINGW-packages/pull/7349)
