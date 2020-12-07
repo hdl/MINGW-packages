@@ -12,10 +12,10 @@ echo '::endgroup::'
 printf '\n::group::Install dfu-util through pacman\n'
   case "$MSYSTEM" in
     MINGW64|mingw64)
-      pacman -S --noconfirm mingw-w64-x86_64-dfu-util
+      pacman -S --noconfirm mingw-w64-x86_64-dfu-util mingw-w64-x86_64-libwinpthread-git
     ;;
     MINGW32|mingw32)
-      pacman -S --noconfirm mingw-w64-i686-dfu-util
+      pacman -S --noconfirm mingw-w64-i686-dfu-util mingw-w64-i686-libwinpthread-git
     ;;
     *)
       echo 'Unknown MSYSTEM: $MSYSTEM'
