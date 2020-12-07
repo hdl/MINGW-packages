@@ -12,10 +12,10 @@ echo '::endgroup::'
 printf '\n::group::Install iverilog through pacman\n'
   case "$MSYSTEM" in
     MINGW64|mingw64)
-      pacman -S --noconfirm mingw-w64-x86_64-iverilog
+      pacman -S --noconfirm mingw-w64-x86_64-iverilog mingw-w64-x86_64-bzip2
     ;;
     MINGW32|mingw32)
-      pacman -S --noconfirm mingw-w64-i686-iverilog
+      pacman -S --noconfirm mingw-w64-i686-iverilog mingw-w64-i686-bzip2
     ;;
     *)
       echo 'Unknown MSYSTEM: $MSYSTEM'
