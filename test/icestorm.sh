@@ -25,7 +25,7 @@ printf '\n::group::Install icestorm through pacman\n'
 echo '::endgroup::'
 
 printf '\nSmoke tests (icestorm)\n'
-./smoke-tests/icestorm.sh
+./smoke-tests/icestorm.sh || cat icestorm.log
 
 printf '\nSmoke tests (iceprog)\n'
-./smoke-tests/iceprog.sh
+./smoke-tests/iceprog.sh || cat iceprog.log

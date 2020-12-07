@@ -25,7 +25,7 @@ printf '\n::group::Install iverilog through pacman\n'
 echo '::endgroup::'
 
 printf '\nSmoke tests\n'
-./smoke-tests/iverilog.sh
+./smoke-tests/iverilog.sh || cat iverilog.log
 
 printf '\n::group::Install git through pacman\n'
   pacman -S --noconfirm git

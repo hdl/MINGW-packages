@@ -25,7 +25,7 @@ printf '\n::group::Install dfu-util through pacman\n'
 echo '::endgroup::'
 
 printf '\nSmoke tests\n'
-./smoke-tests/dfu-util.sh
+./smoke-tests/dfu-util.sh || cat dfu-util.log
 
 printf '\n::group::Version\n'
   dfu-util --version

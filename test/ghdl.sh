@@ -25,7 +25,7 @@ printf '\n::group::Install ghdl through pacman\n'
 echo '::endgroup::'
 
 printf '\nSmoke tests\n'
-./smoke-tests/ghdl.sh
+./smoke-tests/ghdl.sh || cat ghdl.log
 
 printf '\n::group::Version\n'
   ghdl --version

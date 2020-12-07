@@ -25,7 +25,7 @@ printf '\n::group::Install icesprog through pacman\n'
 echo '::endgroup::'
 
 printf '\nSmoke tests\n'
-./smoke-tests/icesprog.sh
+./smoke-tests/icesprog.sh || cat icesprog.log
 
 printf '\n::group::Version\n'
   icesprog --version
