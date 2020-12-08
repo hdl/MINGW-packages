@@ -63,7 +63,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 - 🟧 [**fujprog**](https://hdl.github.io/awesome/items/fujprog) **WIP** [hdl/MINGW-packages@fujprog: mingw-w64-fujprog](https://github.com/hdl/MINGW-packages/tree/fujprog/mingw-w64-fujprog)
 - 🟪 [**icesprog**](https://hdl.github.io/awesome/items/icesprog) : [mingw-w64-icesprog](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-icesprog) ([i686](https://packages.msys2.org/package/mingw-w64-i686-icesprog), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-icesprog))
   - msys2/MINGW-packages issues: [#7308](https://github.com/msys2/MINGW-packages/pull/7308) [#7352](https://github.com/msys2/MINGW-packages/pull/7352)
-- 🟩 [**openFPGALoader**](https://hdl.github.io/awesome/items/openfpgaloader) **WIP** [hdl/MINGW-packages@openFPGALoader: mingw-w64-openFPGALoader](https://github.com/hdl/MINGW-packages/tree/openFPGALoader/mingw-w64-openFPGALoader)
+- 🟪 [**openFPGALoader**](https://hdl.github.io/awesome/items/openfpgaloader) : [mingw-w64-openFPGALoader](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-openFPGALoader) ([i686](https://packages.msys2.org/package/mingw-w64-i686-openFPGALoader), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-openFPGALoader))
   - msys2/MINGW-packages issues: [#7351](https://github.com/msys2/MINGW-packages/pull/7351) [#7404](https://github.com/msys2/MINGW-packages/pull/7404)
   - [trabucayre/openFPGALoader#65](https://github.com/trabucayre/openFPGALoader/pull/65)
   - [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
