@@ -42,6 +42,7 @@ Other than that, branch `main` and other branches contain sources providing diff
 - 🟧 [**UHDM**](https://hdl.github.io/awesome/items/uhdm) **WIP** [hdl/MINGW-packages@UHDM: mingw-w64-UHDM](https://github.com/hdl/MINGW-packages/tree/UHDM/mingw-w64-UHDM)
 - ⬜ [**Verible**](https://hdl.github.io/awesome/items/verible)
 - 🟪 [**Verilator**](https://hdl.github.io/awesome/items/verilator) : [mingw-w64-verilator](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator) ([i686](https://packages.msys2.org/package/mingw-w64-i686-verilator), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-verilator))
+  - msys2/MINGW-packages issues: [#7424](https://github.com/msys2/MINGW-packages/pull/7424)
 - ⬜ [**VHDLproc**](https://github.com/nobodywasishere/VHDLproc)
 - ⬜ [**VPR**](https://hdl.github.io/awesome/items/vpr)
 - ⬜ [**VTR**](https://hdl.github.io/awesome/items/vtr)
