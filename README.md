@@ -32,6 +32,7 @@ The following list summarises the state (🟪 upstreamed, 🟩 ready but not ups
   - msys2/MINGW-packages issues: [#7341](https://github.com/msys2/MINGW-packages/pull/7341) [#7401](https://github.com/msys2/MINGW-packages/pull/7401)
   - [steveicarus/iverilog#398](https://github.com/steveicarus/iverilog/pull/398)
 - ⬜ [**ImHex**](https://github.com/WerWolv/ImHex)
+- 🟪 [**KiCad**](https://hdl.github.io/awesome/items/kicad) : [mingw-w64-kicad](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-kicad) ([i686](https://packages.msys2.org/package/mingw-w64-i686-kicad), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-kicad))
 - ⬜ [**nextpnr**](https://hdl.github.io/awesome/items/nextpnr)
   - [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - 🟪 [**ngspice**](https://hdl.github.io/awesome/items/ngspice) : [mingw-w64-ngspice](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ngspice) ([i686](https://packages.msys2.org/package/mingw-w64-i686-ngspice), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-ngspice))
