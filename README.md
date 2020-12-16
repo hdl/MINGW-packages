@@ -36,6 +36,7 @@ The following list summarises the state (🟪 upstreamed, 🟩 ready but not ups
 - ⬜ [**nextpnr**](https://hdl.github.io/awesome/items/nextpnr)
   - [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - 🟪 [**ngspice**](https://hdl.github.io/awesome/items/ngspice) : [mingw-w64-ngspice](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ngspice) ([i686](https://packages.msys2.org/package/mingw-w64-i686-ngspice), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-ngspice))
+  - msys2/MINGW-packages issues: [#7450](https://github.com/msys2/MINGW-packages/pull/7450)
 - ⬜ [**prjtrellis**](https://hdl.github.io/awesome/items/prjtrellis)
   - [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
 - ⬜ [**sigrok-cli**](https://hdl.github.io/awesome/items/sigrok-cli)
