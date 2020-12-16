@@ -18,6 +18,7 @@ The following list summarises the state (🟪 upstreamed, 🟩 ready but not ups
 - ⬜ [**BitMan**](https://github.com/khoapham/bitman)
 - ⬜ [**Boolector**](https://hdl.github.io/awesome/items/boolector/)
   - [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
+- 🟪 [**fritzing**](https://hdl.github.io/awesome/items/fritzing) : [mingw-w64-fritzing](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-fritzing) ([i686](https://packages.msys2.org/package/mingw-w64-i686-fritzing), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-fritzing))
 - 🟪 [**GHDL**](https://hdl.github.io/awesome/items/ghdl) : [mingw-w64-ghdl](https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ghdl) ([i686](https://packages.msys2.org/package/mingw-w64-i686-ghdl-mcode), [x86_64](https://packages.msys2.org/package/mingw-w64-x86_64-ghdl-llvm))
   - msys2/MINGW-packages issues: [#5757](https://github.com/msys2/MINGW-packages/pull/5757) [#6688](https://github.com/msys2/MINGW-packages/pull/6688)
   - [open-tool-forge/fpga-toolchain](https://github.com/open-tool-forge/fpga-toolchain) (static)
