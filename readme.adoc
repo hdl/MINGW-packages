@@ -110,10 +110,10 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 
 |https://hdl.github.io/awesome/items/prjtrellis[prjtrellis]
-|⬜
+|🟩
+|https://github.com/umarcor/MINGW-packages/tree/prjtrellis/mingw-w64-prjtrellis[umarcor/MINGW-packages@prjtrellis: mingw-w64-prjtrellis]
 |
-|
-|
+|https://github.com/msys2/MINGW-packages/pull/7509[#7509]
 |https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
 
 |https://hdl.github.io/awesome/items/sigrok-cli[sigrok-cli]
