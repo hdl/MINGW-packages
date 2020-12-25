@@ -1,0 +1,62 @@
+name: build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 5'
+
+jobs:
+
+  build:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        sys:
+          - { msystem: MINGW64, arch: x86_64 }
+          - { msystem: MINGW32, arch: i686   }
+        tool: [
+          fritzing,
+          ghdl,
+          graphviz,
+          gtkwave,
+          icestorm,
+          iverilog,
+          kicad,
+          ngspice,
+          verilator,
+          yices,
+          z3,
+          dfu-util,
+          ecpprog,
+          icesprog,
+          openFPGALoader,
+          openocd
+        ]
+    name: ${{ matrix.sys.msystem }} | ${{ matrix.sys.arch }} | ${{ matrix.tool }}
+    env:
+      MINGW_INSTALLS: ${{ matrix.sys.msystem }}
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+
+    - uses: actions/checkout@v2
+      with:
+        repository: msys2/MINGW-packages
+        ref: master
+
+    - uses: msys2/setup-msys2@v2
+      with:
+        msystem: ${{ matrix.sys.msystem }}
+        update: true
+        install: >
+          base-devel
+          git
+          mingw-w64-${{ matrix.sys.arch }}-toolchain
+
+    - name: Build ${{ matrix.tool }}
+      run: |
+        cd mingw-w64-${{ matrix.tool }}
+        makepkg-mingw --noconfirm --noprogressbar -sCLf --nocheck
