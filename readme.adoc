@@ -1,0 +1,341 @@
+[.text-center]
+https://github.com/hdl/MINGW-packages/actions?query=workflow%3Amain[image:https://img.shields.io/github/workflow/status/hdl/MINGW-packages/main/master?longCache=true&style=flat-square&label=build&logo=Github%20Actions&logoColor=fff[title="GitHub Actions workflow 'main'"]]
+https://github.com/hdl/MINGW-packages/actions?query=workflow%3Atest[image:https://img.shields.io/github/workflow/status/hdl/MINGW-packages/test/main?longCache=true&style=flat-square&label=test&logo=Github%20Actions&logoColor=fff[title="GitHub Actions workflow 'test'"]]
+
+= MINGW-packages for EDA
+
+This repository contains package recipes for https://en.wikipedia.org/wiki/Electronic_design_automation[electronic design automation (EDA)] tools/projects to be built as MinGW-w64 targets on https://www.msys2.org/[MSYS2]. See link:CONTEXT.md[CONTEXT] for a discussion about other packaging alternatives for EDA tooling.
+
+== Packages/tools
+
+The complete list of available MSYS2 packages is shown at https://packages.msys2.org/package/[packages.msys2.org/package]. When first upstreamed, packages are shown at https://packages.msys2.org/new[packages.msys2.org/new] until maintainers of MSYS2 sign them and move them to the official repositories. By the same token, when updates or patches are upstreamed, packages are shown at https://packages.msys2.org/queue[packages.msys2.org/queue] until signed and uploaded.
+
+The following tables summarise the state (🟪 upstreamed, 🟩 ready but not upstreamed, 🟧 work in progress, ⬜ to do) of EDA related packages, and provide references to relevant issues/PRs regarding their support on MSYS2.
+
+|===
+|Tool |State |PKGBUILD |Packages |PRs |References
+
+|https://github.com/khoapham/bitman[BitMan]
+|⬜
+|
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/boolector[Boolector]
+|⬜
+|
+|
+|
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+
+|https://hdl.github.io/awesome/items/fritzing[fritzing]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-fritzing[mingw-w64-fritzing]
+|https://packages.msys2.org/package/mingw-w64-i686-fritzing[i686], https://packages.msys2.org/package/mingw-w64-x86_64-fritzing[x86_64]
+|
+|
+
+|https://hdl.github.io/awesome/items/ghdl[GHDL]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ghdl[mingw-w64-ghdl]
+|https://packages.msys2.org/package/mingw-w64-i686-ghdl-mcode[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ghdl-llvm[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/5757[#5757] https://github.com/msys2/MINGW-packages/pull/6688[#6688]
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://hdl.github.io/awesome/items/ghdl-yosys-plugin[ghdl-yosys-plugin]
+|⬜
+|
+|
+|
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://hdl.github.io/awesome/items/graphviz[Graphviz]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-graphviz[mingw-w64-graphviz]
+|https://packages.msys2.org/package/mingw-w64-i686-graphviz[i686], https://packages.msys2.org/package/mingw-w64-x86_64-graphviz[x86_64]
+|
+|
+
+|https://hdl.github.io/awesome/items/gtkwave[GTKWave]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-gtkwave[mingw-w64-gtkwave]
+|https://packages.msys2.org/package/mingw-w64-i686-gtkwave[i686], https://packages.msys2.org/package/mingw-w64-x86_64-gtkwave[x86_64]
+|
+|
+
+|https://hdl.github.io/awesome/items/icestorm[icestorm]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-icestorm[mingw-w64-icestorm]
+|https://packages.msys2.org/package/mingw-w64-i686-icestorm[i686], https://packages.msys2.org/package/mingw-w64-x86_64-icestorm[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/7304[#7304]
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://hdl.github.io/awesome/items/iverilog[iverilog]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-iverilog[mingw-w64-iverilog]
+|https://packages.msys2.org/package/mingw-w64-i686-iverilog[i686], https://packages.msys2.org/package/mingw-w64-x86_64-iverilog[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/7341[#7341] https://github.com/msys2/MINGW-packages/pull/7401[#7401]
+|https://github.com/steveicarus/iverilog/pull/398[steveicarus/iverilog#398]
+
+|https://github.com/WerWolv/ImHex[ImHex]
+|⬜
+|
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/kicad[KiCad]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-kicad[mingw-w64-kicad]
+|https://packages.msys2.org/package/mingw-w64-i686-kicad[i686], https://packages.msys2.org/package/mingw-w64-x86_64-kicad[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/7444[#7444]
+|
+
+|https://hdl.github.io/awesome/items/nextpnr[nextpnr]
+|⬜
+|
+|
+|
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+
+|https://hdl.github.io/awesome/items/ngspice[ngspice]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ngspice[mingw-w64-ngspice]
+|https://packages.msys2.org/package/mingw-w64-i686-ngspice[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ngspice[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/7450[#7450] https://github.com/msys2/MINGW-packages/pull/7503[#7503]
+|
+
+|https://hdl.github.io/awesome/items/prjtrellis[prjtrellis]
+|⬜
+|
+|
+|
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://hdl.github.io/awesome/items/sigrok-cli[sigrok-cli]
+|⬜
+|
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/surelog[Surelog]
+|🟧
+|https://github.com/hdl/MINGW-packages/tree/surelog/mingw-w64-surelog[hdl/MINGW-packages@surelog: mingw-w64-surelog]
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/symbiyosys[SymbiYosys]
+|⬜
+|
+|
+|
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://trilinos.github.io/teuchos.html[teuchos/trilinos]
+|⬜
+|
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/uhdm[UHDM]
+|🟧
+|https://github.com/hdl/MINGW-packages/tree/UHDM/mingw-w64-UHDM[hdl/MINGW-packages@UHDM: mingw-w64-UHDM]
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/verible[Verible]
+|⬜
+|
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/verilator[Verilator]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator[mingw-w64-verilator]
+|https://packages.msys2.org/package/mingw-w64-i686-verilator[i686], https://packages.msys2.org/package/mingw-w64-x86_64-verilator[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/7424[#7424]
+|verilator/verilator issues: https://github.com/verilator/verilator/pull/2681[#2681] https://github.com/verilator/verilator/pull/2685[#2685]
+
+
+|https://github.com/nobodywasishere/VHDLproc[VHDLproc]
+|⬜
+|
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/vpr[VPR]
+|⬜
+|
+|
+|
+|
+
+
+|https://hdl.github.io/awesome/items/vtr[VTR]
+|⬜
+|
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/xyce[Xyce]
+|⬜
+|
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/yices2[Yices 2]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-yices[mingw-w64-yices]
+|https://packages.msys2.org/package/mingw-w64-i686-yices[i686], https://packages.msys2.org/package/mingw-w64-x86_64-yices[x86_64]
+|
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://hdl.github.io/awesome/items/yosys[Yosys]
+|🟧
+|https://github.com/hdl/MINGW-packages/tree/yosys/mingw-w64-yosys[hdl/MINGW-packages@yosys: mingw-w64-yosys]
+|
+|
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://hdl.github.io/awesome/items/z3[Z3]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator[mingw-w64-z3]
+|https://packages.msys2.org/package/mingw-w64-i686-z3[i686], https://packages.msys2.org/package/mingw-w64-x86_64-z3[x86_64]
+|
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|===
+
+|===
+|Board programming |State |PKGBUILD |Packages |PRs |References
+
+|https://hdl.github.io/awesome/items/dfu-util[dfu-util]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-dfu-util[mingw-w64-dfu-util]
+|https://packages.msys2.org/package/mingw-w64-i686-dfu-util[i686], https://packages.msys2.org/package/mingw-w64-x86_64-dfu-util[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/7400[#7400]
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://hdl.github.io/awesome/items/ecpprog[ecpprog]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ecpprog[mingw-w64-ecpprog]
+|https://packages.msys2.org/package/mingw-w64-i686-ecpprog[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ecpprog[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/7349[#7349] https://github.com/msys2/MINGW-packages/pull/7403[#7403]
+|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://hdl.github.io/awesome/items/fujprog[fujprog]
+|🟧
+|https://github.com/hdl/MINGW-packages/tree/fujprog/mingw-w64-fujprog[hdl/MINGW-packages@fujprog: mingw-w64-fujprog]
+|
+|
+|
+
+|https://hdl.github.io/awesome/items/icesprog[icesprog]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-icesprog[mingw-w64-icesprog]
+|https://packages.msys2.org/package/mingw-w64-i686-icesprog[i686], https://packages.msys2.org/package/mingw-w64-x86_64-icesprog[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/7308[#7308] https://github.com/msys2/MINGW-packages/pull/7352[#7352]
+|
+
+|https://hdl.github.io/awesome/items/openfpgaloader[openFPGALoader]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-openFPGALoader[mingw-w64-openFPGALoader]
+|https://packages.msys2.org/package/mingw-w64-i686-openFPGALoader[i686], https://packages.msys2.org/package/mingw-w64-x86_64-openFPGALoader[x86_64]
+|https://github.com/msys2/MINGW-packages/pull/7351[#7351] https://github.com/msys2/MINGW-packages/pull/7404[#7404]
+|https://github.com/trabucayre/openFPGALoader/pull/65[trabucayre/openFPGALoader#65] https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+
+|https://hdl.github.io/awesome/items/openocd[OpenOCD]
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-openocd[mingw-w64-openocd]
+|https://packages.msys2.org/package/mingw-w64-i686-openocd[i686], https://packages.msys2.org/package/mingw-w64-x86_64-openocd4[x86_64]
+|
+|
+
+|===
+
+== Usage
+
+All upstreamed packages are available through `pacman`, as any other regular MSYS2 package. Hence, you can search them with `pacman -Ss TOOL_NAME` and then install them with `pacman -S PACKAGE_NAME`. See https://www.msys2.org/docs/package-management[msys2.org/docs/package-management].
+
+Alternatively, there is a https://wiki.archlinux.org/index.php/Meta_package_and_package_group[package group] named `eda`, which you can install with `pacman -S mingw-w64-x86_64-eda` (64 bits) or `pacman -S mingw-w64-i686-eda` (32 bits). The list of tools will be shown, for you to choose which of them to install. See https://packages.msys2.org/group/mingw-w64-x86_64-eda[packages.msys2.org/group/mingw-w64-x86_64-eda] and/or https://packages.msys2.org/group/mingw-w64-i686-eda[packages.msys2.org/group/mingw-w64-i686-eda].
+
+== Contributing
+
+The upstream of this repo is https://github.com/msys2/MINGW-packages[msys2/MINGW-packages]. Branch https://github.com/hdl/MINGW-packages/tree/master[master] is kept in sync with that. Therefore, all the PRs involving modifications which are meant to be upstreamed should be opened against branch `master`.
+
+Other than that, branch `main` and other branches contain work in progress and/or sources providing different configuration options and/or features which were not upstreamed yet.
+
+MSYS2 borrows the package management plumbing from https://www.archlinux.org/[Arch Linux]. That is, PKGBUILD recipes and `makepkg` are used. It's the same same codebase, but patched to work on MSYS2 (Windows). Therefore, upstream repositories are different. Apart from that, the usage is the same, and PKGBUILD files for MSYS2 are very similar to the equivalent recipes for Arch Linux.
+
+* https://www.msys2.org[msys2.org]
+** https://www.msys2.org/wiki/Creating-Packages/[Creating Packages]
+*** https://www.msys2.org/wiki/Creating-Packages/#a-new-package-from-start-to-finish[A new package from start to finish]
+** https://www.msys2.org/wiki/Porting/[Porting]
+* https://wiki.archlinux.org[wiki.archlinux.org]
+** https://wiki.archlinux.org/index.php/PKGBUILD[PKGBUILD]
+** https://wiki.archlinux.org/index.php/Makepkg[Makepkg]
+
+=== Testing
+
+Branch `main` contains subdir `test` and a CI workflow which is scheduled periodically. There should be a test script and a job for each tool in the list above. Smoke-tests from https://github.com/hdl/smoke-tests[hdl/smoke-tests] are used before running more heavy tests.
+
+NOTE: Tools are not built periodically, neither in msys2/MINGW-packages nor in this repository (yet). It would be desirable to have an scheduled workflow for building both packaged versions and the head of each downstream repo. Do you want to tackle the challenge? Contributions are welcome!
+
+=== Updating packages
+
+MSYS2 repositories are compared against matching packages on Arch Linux, and mismatches are shown at https://packages.msys2.org/outofdate[packages.msys2.org/outofdate]. That's the easiest way for finding outdated packages. However, many of the tools in the list above are not upstreamed to Arch Linux yet; thus, those are not shown there. It is therefore useful if frequent users of the tools watch the corresponding repostories and communicate updates either through this repository or through https://github.com/msys2/MINGW-packages[msys2/MINGW-packages].
+
+NOTE: Since most projects use source control management (SCM) tools, it should be feasible to have an script for checking new releases automatically. Should you be up to the challenge, contributions are welcome!
+
+The process for bumping a package is very simple (when explained, at least):
+
+* Checkout the latest `master` branch from https://github.com/msys2/MINGW-packages[msys2/MINGW-packages] and create a feature branch.
+* Edit the PKGBUILD recipe of the tool:
+** Change the version.
+** Reset `pkgrel`.
+** If the tool is retrieved as a tarball, update the checksum.
+** Check if any patches exist. Either remove them (if not necessary anymore), update them (if sources changed), or keep them.
+* Commit and push.
+* CI will run and it will build the package.
+
+In practice, checking and updating the patches might be not so simple. Should modifying them be required, see _"Testing PKGBUILD recipes downstream"_ below.
+
+=== Adding new packages
+
+All the ⬜ packages in the list above are to be added yet. Furthermore, there might be other interesting tools which you'd like to upstream, even if not listed above (yet).
+
+_TBC_
+
+_On MSYS2 native windows executables (or DLLs) are built, but the paths in the (bash) shell use the UNIX syntax. Hence, typically the makefiles/scripts of the projects need to be tweaked. Sometimes there is luck, and an Arch Linux recipe works almost as is, but chances are that some defines need to be added._
+
+=== Testing PKGBUILD recipes downstream
+
+Should modifying/patching downstream sources be required, the recommended procedure is the following:
+
+* Checkout the desired version of the project/tool repository and create a feature branch.
+* Create subdir `msys2` and add the PKGBUILD recipe.
+** Remove non-external `source` entries and the corresponding checksums from the recipe.
+** Modify the paths to use the sources in the parent directory.
+* Copy link:testing-workflow.yml[testing-workflow.yml] to `.github/workflows/` (create the subdir if it does not exist).
+* Modify the last step for testing the tool.
+* Commit and push.
+* CI will run in your fork of the downstream repo.
+
+Build issues and regressions should arise. You can commit your fixes to the feature branch and push again.
+
+_TBC_
+
+* _Discuss solutions with maintainers_.
+* _Propose having the MSYS2 CI added downstream_.
+* _How to generate patches and apply them to the PKGBUILD recipe to be upstreamed_.
