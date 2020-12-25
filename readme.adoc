@@ -1,6 +1,7 @@
 [.text-center]
-https://github.com/hdl/MINGW-packages/actions?query=workflow%3Amain[image:https://img.shields.io/github/workflow/status/hdl/MINGW-packages/main/master?longCache=true&style=flat-square&label=build&logo=Github%20Actions&logoColor=fff[title="GitHub Actions workflow 'main'"]]
-https://github.com/hdl/MINGW-packages/actions?query=workflow%3Atest[image:https://img.shields.io/github/workflow/status/hdl/MINGW-packages/test/main?longCache=true&style=flat-square&label=test&logo=Github%20Actions&logoColor=fff[title="GitHub Actions workflow 'test'"]]
+https://github.com/hdl/MINGW-packages/actions?query=workflow%3Amain[image:https://img.shields.io/github/workflow/status/hdl/MINGW-packages/main/master?longCache=true&style=flat-square&label=MSYS2%20main&logo=Github%20Actions&logoColor=fff[title="GitHub Actions workflow 'main'"]]
+https://github.com/hdl/MINGW-packages/actions?query=workflow%3ATest[image:https://img.shields.io/github/workflow/status/hdl/MINGW-packages/Test/main?longCache=true&style=flat-square&label=Test&logo=Github%20Actions&logoColor=fff[title="GitHub Actions workflow 'Test'"]]
+https://github.com/hdl/MINGW-packages/actions?query=workflow%3ABuild[image:https://img.shields.io/github/workflow/status/hdl/MINGW-packages/Build/main?longCache=true&style=flat-square&label=Build&logo=Github%20Actions&logoColor=fff[title="GitHub Actions workflow 'Build'"]]
 
 = MINGW-packages for EDA
 
