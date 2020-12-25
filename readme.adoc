@@ -42,7 +42,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ghdl[mingw-w64-ghdl]
 |https://packages.msys2.org/package/mingw-w64-i686-ghdl-mcode[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ghdl-llvm[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/5757[#5757] https://github.com/msys2/MINGW-packages/pull/6688[#6688]
+|https://github.com/msys2/MINGW-packages/pull/5757[#5757] https://github.com/msys2/MINGW-packages/pull/6688[#6688] https://github.com/msys2/MINGW-packages/pull/7510[#7510]
 |https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
 
 |https://hdl.github.io/awesome/items/ghdl-yosys-plugin[ghdl-yosys-plugin]
