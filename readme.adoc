@@ -95,8 +95,8 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 
 |https://hdl.github.io/awesome/items/nextpnr[nextpnr]
-|⬜
-|
+|🟧
+|https://github.com/umarcor/MINGW-packages/tree/prjtrellis/mingw-w64-nextpnr[umarcor/MINGW-packages@nextpnr: mingw-w64-nextpnr]
 |
 |
 |https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
