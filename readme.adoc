@@ -207,7 +207,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |https://github.com/hdl/MINGW-packages/tree/yosys/mingw-w64-yosys[hdl/MINGW-packages@yosys: mingw-w64-yosys]
 |
 |
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|https://github.com/YosysHQ/yosys/issues/2505[YosysHQ/yosys#2505] https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
 
 |https://hdl.github.io/awesome/items/z3[Z3]
 |🟪
