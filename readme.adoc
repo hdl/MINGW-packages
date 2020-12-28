@@ -354,6 +354,8 @@ _TBC_
 
 _On MSYS2 native windows executables (or DLLs) are built, but the paths in the (bash) shell use the UNIX syntax. Hence, typically the makefiles/scripts of the projects need to be tweaked. Sometimes there is luck, and an Arch Linux recipe works almost as is, but chances are that some defines need to be added._
 
+https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-PKGBUILD-templates[_mingw-w64-PKGBUILD-templates_]
+
 === Testing PKGBUILD recipes downstream
 
 Should modifying/patching downstream sources be required, the recommended procedure is the following:
