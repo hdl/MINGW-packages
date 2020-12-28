@@ -14,7 +14,7 @@ The complete list of available MSYS2 packages is shown at https://packages.msys2
 The following tables summarise the state (🟪 upstreamed, 🟩 ready but not upstreamed, 🟧 work in progress, ⬜ to do) of EDA related packages, and provide references to relevant issues/PRs regarding their support on MSYS2.
 
 |===
-|Tool |State |PKGBUILD |Packages |PRs |References
+|Tool |State |PKGBUILD |Packages |PRs |References |https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
 
 |https://github.com/khoapham/bitman[BitMan]
 |⬜
@@ -22,13 +22,15 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/boolector[Boolector]
 |⬜
 |
 |
 |
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 
 |https://hdl.github.io/awesome/items/fritzing[fritzing]
@@ -37,20 +39,23 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |https://packages.msys2.org/package/mingw-w64-i686-fritzing[i686], https://packages.msys2.org/package/mingw-w64-x86_64-fritzing[x86_64]
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/ghdl[GHDL]
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ghdl[mingw-w64-ghdl]
 |https://packages.msys2.org/package/mingw-w64-i686-ghdl-mcode[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ghdl-llvm[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/5757[#5757] https://github.com/msys2/MINGW-packages/pull/6688[#6688] https://github.com/msys2/MINGW-packages/pull/7510[#7510]
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 |https://hdl.github.io/awesome/items/ghdl-yosys-plugin[ghdl-yosys-plugin]
-|⬜
+|🟩
+|Built in yosys (see below)
+|-
+|-
 |
-|
-|
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|✔️
 
 |https://hdl.github.io/awesome/items/graphviz[Graphviz]
 |🟪
@@ -58,6 +63,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |https://packages.msys2.org/package/mingw-w64-i686-graphviz[i686], https://packages.msys2.org/package/mingw-w64-x86_64-graphviz[x86_64]
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/gtkwave[GTKWave]
 |🟪
@@ -65,20 +71,23 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |https://packages.msys2.org/package/mingw-w64-i686-gtkwave[i686], https://packages.msys2.org/package/mingw-w64-x86_64-gtkwave[x86_64]
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/icestorm[icestorm]
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-icestorm[mingw-w64-icestorm]
 |https://packages.msys2.org/package/mingw-w64-i686-icestorm[i686], https://packages.msys2.org/package/mingw-w64-x86_64-icestorm[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7304[#7304]
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 |https://hdl.github.io/awesome/items/iverilog[iverilog]
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-iverilog[mingw-w64-iverilog]
 |https://packages.msys2.org/package/mingw-w64-i686-iverilog[i686], https://packages.msys2.org/package/mingw-w64-x86_64-iverilog[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7341[#7341] https://github.com/msys2/MINGW-packages/pull/7401[#7401]
-|https://github.com/steveicarus/iverilog/pull/398[steveicarus/iverilog#398]
+|steveicarus/iverilog: https://github.com/steveicarus/iverilog/pull/398[#398]
+|❔
 
 |https://github.com/WerWolv/ImHex[ImHex]
 |⬜
@@ -86,6 +95,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/kicad[KiCad]
 |🟪
@@ -93,13 +103,15 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |https://packages.msys2.org/package/mingw-w64-i686-kicad[i686], https://packages.msys2.org/package/mingw-w64-x86_64-kicad[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7444[#7444]
 |
+|❔
 
 |https://hdl.github.io/awesome/items/nextpnr[nextpnr]
 |🟧
 |https://github.com/umarcor/MINGW-packages/tree/prjtrellis/mingw-w64-nextpnr[umarcor/MINGW-packages@nextpnr: mingw-w64-nextpnr]
 |
 |
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 
 |https://hdl.github.io/awesome/items/ngspice[ngspice]
@@ -108,13 +120,15 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |https://packages.msys2.org/package/mingw-w64-i686-ngspice[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ngspice[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7450[#7450] https://github.com/msys2/MINGW-packages/pull/7503[#7503]
 |
+|❔
 
 |https://hdl.github.io/awesome/items/prjtrellis[prjtrellis]
 |🟩
 |https://github.com/umarcor/MINGW-packages/tree/prjtrellis/mingw-w64-prjtrellis[umarcor/MINGW-packages@prjtrellis: mingw-w64-prjtrellis]
 |
 |https://github.com/msys2/MINGW-packages/pull/7509[#7509]
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 |https://hdl.github.io/awesome/items/sigrok-cli[sigrok-cli]
 |⬜
@@ -122,6 +136,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/surelog[Surelog]
 |🟧
@@ -129,13 +144,15 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/symbiyosys[SymbiYosys]
 |⬜
 |
 |
 |
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 |https://trilinos.github.io/teuchos.html[teuchos/trilinos]
 |⬜
@@ -143,6 +160,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/uhdm[UHDM]
 |🟧
@@ -150,6 +168,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/verible[Verible]
 |⬜
@@ -157,13 +176,15 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/verilator[Verilator]
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator[mingw-w64-verilator]
 |https://packages.msys2.org/package/mingw-w64-i686-verilator[i686], https://packages.msys2.org/package/mingw-w64-x86_64-verilator[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7424[#7424]
-|verilator/verilator issues: https://github.com/verilator/verilator/pull/2681[#2681] https://github.com/verilator/verilator/pull/2685[#2685]
+|verilator/verilator: https://github.com/verilator/verilator/pull/2681[#2681] https://github.com/verilator/verilator/pull/2685[#2685]
+|❔
 
 
 |https://github.com/nobodywasishere/VHDLproc[VHDLproc]
@@ -172,6 +193,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/vpr[VPR]
 |⬜
@@ -179,6 +201,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 
 |https://hdl.github.io/awesome/items/vtr[VTR]
@@ -187,6 +210,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/xyce[Xyce]
 |⬜
@@ -194,46 +218,52 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/yices2[Yices 2]
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-yices[mingw-w64-yices]
 |https://packages.msys2.org/package/mingw-w64-i686-yices[i686], https://packages.msys2.org/package/mingw-w64-x86_64-yices[x86_64]
 |
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 |https://hdl.github.io/awesome/items/yosys[Yosys]
-|🟧
-|https://github.com/hdl/MINGW-packages/tree/yosys/mingw-w64-yosys[hdl/MINGW-packages@yosys: mingw-w64-yosys]
+|🟩
+|https://github.com/umarcor/MINGW-packages/tree/yosys/mingw-w64-yosys[umarcor/MINGW-packages@yosys: mingw-w64-yosys]
 |
-|
-|https://github.com/YosysHQ/yosys/issues/2505[YosysHQ/yosys#2505] https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|https://github.com/msys2/MINGW-packages/pull/7534[#7534]
+|YosysHQ/yosys: https://github.com/YosysHQ/yosys/issues/2505[#2505] https://github.com/YosysHQ/yosys/issues/2507[#2507] https://github.com/YosysHQ/yosys/issues/2511[#2511] https://github.com/YosysHQ/yosys/issues/2512[#2512]
+|✔️
 
 |https://hdl.github.io/awesome/items/z3[Z3]
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator[mingw-w64-z3]
 |https://packages.msys2.org/package/mingw-w64-i686-z3[i686], https://packages.msys2.org/package/mingw-w64-x86_64-z3[x86_64]
 |
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 |===
 
 |===
-|Board programming |State |PKGBUILD |Packages |PRs |References
+|Board programming |State |PKGBUILD |Packages |PRs |References |https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
 
 |https://hdl.github.io/awesome/items/dfu-util[dfu-util]
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-dfu-util[mingw-w64-dfu-util]
 |https://packages.msys2.org/package/mingw-w64-i686-dfu-util[i686], https://packages.msys2.org/package/mingw-w64-x86_64-dfu-util[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7400[#7400]
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 |https://hdl.github.io/awesome/items/ecpprog[ecpprog]
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ecpprog[mingw-w64-ecpprog]
 |https://packages.msys2.org/package/mingw-w64-i686-ecpprog[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ecpprog[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7349[#7349] https://github.com/msys2/MINGW-packages/pull/7403[#7403]
-|https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|
+|✔️
 
 |https://hdl.github.io/awesome/items/fujprog[fujprog]
 |🟧
@@ -241,6 +271,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
+|❔
 
 |https://hdl.github.io/awesome/items/icesprog[icesprog]
 |🟪
@@ -248,13 +279,15 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |https://packages.msys2.org/package/mingw-w64-i686-icesprog[i686], https://packages.msys2.org/package/mingw-w64-x86_64-icesprog[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7308[#7308] https://github.com/msys2/MINGW-packages/pull/7352[#7352]
 |
+|❔
 
 |https://hdl.github.io/awesome/items/openfpgaloader[openFPGALoader]
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-openFPGALoader[mingw-w64-openFPGALoader]
 |https://packages.msys2.org/package/mingw-w64-i686-openFPGALoader[i686], https://packages.msys2.org/package/mingw-w64-x86_64-openFPGALoader[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7351[#7351] https://github.com/msys2/MINGW-packages/pull/7404[#7404]
-|https://github.com/trabucayre/openFPGALoader/pull/65[trabucayre/openFPGALoader#65] https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|https://github.com/trabucayre/openFPGALoader/pull/65[trabucayre/openFPGALoader#65]
+|✔️
 
 |https://hdl.github.io/awesome/items/openocd[OpenOCD]
 |🟪
@@ -262,6 +295,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |https://packages.msys2.org/package/mingw-w64-i686-openocd[i686], https://packages.msys2.org/package/mingw-w64-x86_64-openocd4[x86_64]
 |
 |
+|❔
 
 |===
 
