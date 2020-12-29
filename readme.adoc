@@ -106,10 +106,10 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |❔
 
 |https://hdl.github.io/awesome/items/nextpnr[nextpnr]
-|🟧
+|🟩
 |https://github.com/umarcor/MINGW-packages/tree/prjtrellis/mingw-w64-nextpnr[umarcor/MINGW-packages@nextpnr: mingw-w64-nextpnr]
 |
-|
+|https://github.com/msys2/MINGW-packages/pull/7542[#7542]
 |YosysHQ/nextpnr: https://github.com/YosysHQ/nextpnr/issues/546[#546]
 |✔️
 
