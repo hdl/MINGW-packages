@@ -233,7 +233,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |https://github.com/umarcor/MINGW-packages/tree/yosys/mingw-w64-yosys[umarcor/MINGW-packages@yosys: mingw-w64-yosys]
 |
 |https://github.com/msys2/MINGW-packages/pull/7534[#7534]
-|YosysHQ/yosys: https://github.com/YosysHQ/yosys/issues/2505[#2505] https://github.com/YosysHQ/yosys/issues/2507[#2507] https://github.com/YosysHQ/yosys/issues/2511[#2511] https://github.com/YosysHQ/yosys/issues/2512[#2512]
+|YosysHQ/yosys: https://github.com/YosysHQ/yosys/issues/2505[#2505] https://github.com/YosysHQ/yosys/issues/2507[#2507] https://github.com/YosysHQ/yosys/issues/2511[#2511] https://github.com/YosysHQ/yosys/issues/2512[#2512] https://github.com/YosysHQ/yosys/issues/2514[#2514]
 |✔️
 
 |https://hdl.github.io/awesome/items/z3[Z3]
