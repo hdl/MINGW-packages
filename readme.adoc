@@ -106,9 +106,9 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |❔
 
 |https://hdl.github.io/awesome/items/nextpnr[nextpnr]
-|🟩
-|https://github.com/umarcor/MINGW-packages/tree/prjtrellis/mingw-w64-nextpnr[umarcor/MINGW-packages@nextpnr: mingw-w64-nextpnr]
-|
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-nextpnr[mingw-w64-nextpnr]
+|https://packages.msys2.org/package/mingw-w64-i686-nextpnr[i686], https://packages.msys2.org/package/mingw-w64-x86_64-nextpnr[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7542[#7542]
 |YosysHQ/nextpnr: https://github.com/YosysHQ/nextpnr/issues/546[#546]
 |✔️
@@ -229,9 +229,9 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |✔️
 
 |https://hdl.github.io/awesome/items/yosys[Yosys]
-|🟩
-|https://github.com/umarcor/MINGW-packages/tree/yosys/mingw-w64-yosys[umarcor/MINGW-packages@yosys: mingw-w64-yosys]
-|
+|🟪
+|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-yosys[mingw-w64-yosys]
+|https://packages.msys2.org/package/mingw-w64-i686-yosys[i686], https://packages.msys2.org/package/mingw-w64-x86_64-yosys[x86_64]
 |https://github.com/msys2/MINGW-packages/pull/7534[#7534]
 |YosysHQ/yosys: https://github.com/YosysHQ/yosys/issues/2505[#2505] https://github.com/YosysHQ/yosys/issues/2507[#2507] https://github.com/YosysHQ/yosys/issues/2511[#2511] https://github.com/YosysHQ/yosys/issues/2512[#2512] https://github.com/YosysHQ/yosys/issues/2514[#2514]
 |✔️
