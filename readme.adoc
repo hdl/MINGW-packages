@@ -50,7 +50,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |✔️
 
 |https://hdl.github.io/awesome/items/ghdl-yosys-plugin[ghdl-yosys-plugin]
-|🟩
+|🟪
 |Built in yosys (see below)
 |-
 |-
