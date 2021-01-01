@@ -1,0 +1,76 @@
+== Contributing
+
+The official git repository for PKGBUILD recipes targeting MINGW32|MINGW64 (MSYS2) is https://github.com/msys2/MINGW-packages[msys2/MINGW-packages]. Due to GitHub's permission management constraints, it is undesirable to open Pull Request (PRs) across organisations. Therefore, all contributions regarding PKGBUILD recipes are handled in repositories from users'/contributors' namespaces and opened against msys2/MINGW-packages. That allows MSYS2 maintainers to edit PRs in-place. Anyway, hdl/MINGW-packages can be used for discussion and coordination of tightly coupled EDA packages.
+
+Other than that, branch `main` contains testing and tracking resources, on top of MSYS2's infrastructure:
+
+* On MSYS2's CI, packages are built with option `--nocheck`. Therefore, only successful builds are check, not runtime dependencies or other possible broken artifacts. In this repo, EDA packages are installed and tested every day.
+* On MSYS2's workflow, packages are neither rebuilt nor updated periodically. They are checked and bumped upon users'/contributors' demand. Therefore, it is easy for less used packages to become either outdated or broken. In this repo, EDA packages are built weekly, in order to avoid them rotting.
+
+NOTE: We'd like to provide additional features, such as building EDA packages from git heads, as a complement to tagged/fixed builds; or automatically checking when are new releases available. Should be willing to contribute, https://gitter.im/hdl/community[get in touch]!
+
+MSYS2 borrows the package management plumbing from https://www.archlinux.org/[Arch Linux]. That is, PKGBUILD recipes and `makepkg` are used. It's the same same codebase, but patched to work on MSYS2 (Windows). Therefore, upstream repositories are different. Apart from that, the usage is the same, and PKGBUILD files for MSYS2 are very similar to the equivalent recipes for Arch Linux.
+
+* https://www.msys2.org[msys2.org]
+** https://www.msys2.org/wiki/Creating-Packages/[Creating Packages]
+*** https://www.msys2.org/wiki/Creating-Packages/#a-new-package-from-start-to-finish[A new package from start to finish]
+** https://www.msys2.org/wiki/Porting/[Porting]
+* https://wiki.archlinux.org[wiki.archlinux.org]
+** https://wiki.archlinux.org/index.php/PKGBUILD[PKGBUILD]
+** https://wiki.archlinux.org/index.php/Makepkg[Makepkg]
+
+=== Testing
+
+Branch `main` contains subdir `test` and a Continuous Integration (CI) workflow which is scheduled periodically. There should be a test script and a job for each EDA tool. Smoke-tests from https://github.com/hdl/smoke-tests[hdl/smoke-tests] are used before running heavier tests.
+
+NOTE: Tagged/fixed versions of the tools are built periodically. It would be desirable to have an scheduled workflow for building the head of each downstream repo too. Do you want to tackle the challenge? Contributions are welcome!
+
+=== Updating packages
+
+MSYS2 repositories are compared against matching packages on Arch Linux, and mismatches are shown at https://packages.msys2.org/outofdate[packages.msys2.org/outofdate]. That's the easiest way for finding outdated packages. However, many EDA tools are not upstreamed to Arch Linux yet; thus, those are not shown there. It is therefore useful if frequent users of the tools watch the corresponding repostories and communicate updates either through this repository or through https://github.com/msys2/MINGW-packages[msys2/MINGW-packages].
+
+NOTE: Since most projects use source control management (SCM) tools, it should be feasible to have an script for checking new releases automatically. Should you be up to the challenge, contributions are welcome!
+
+The process for bumping a package is very simple (when explained, at least):
+
+* Fork and checkout the latest `master` branch from https://github.com/msys2/MINGW-packages[msys2/MINGW-packages] and create a feature branch.
+* Edit the PKGBUILD recipe of the tool:
+** Change the version.
+** Reset `pkgrel`.
+** If the tool is retrieved as a tarball, update the checksum.
+** Check if any patches exist. Either remove them (if not necessary anymore), update them (if sources changed), or keep them.
+* Commit and push.
+* CI will run and it will build the package.
+
+In practice, checking and updating the patches might be not so simple. Should modifying them be required, see <<Testing PKGBUILD recipes downstream>> below.
+
+=== Adding new packages
+
+All the ⬜ tools/projects in the list are to be packaged yet. Furthermore, there might be other interesting tools which you'd like to upstream, even if not listed above (yet).
+
+_TBC_
+
+_On MSYS2 native windows executables (or DLLs) are built, but the paths in the (bash) shell use the UNIX syntax. Hence, typically the makefiles/scripts of the projects need to be tweaked. Sometimes there is luck, and an Arch Linux recipe works almost as is, but chances are that some defines need to be added._
+
+https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-PKGBUILD-templates[_mingw-w64-PKGBUILD-templates_]
+
+=== Testing PKGBUILD recipes downstream
+
+Should modifying/patching downstream sources be required, the recommended procedure is the following:
+
+* Checkout the desired version of the project/tool repository and create a feature branch.
+* Create subdir `msys2` and add the PKGBUILD recipe.
+** Remove non-external `source` entries and the corresponding checksums from the recipe.
+** Modify the paths to use the sources in the parent directory.
+* Copy link:{repotree}testing-workflow.yml[testing-workflow.yml] to `.github/workflows/` (create the subdir if it does not exist).
+* Modify the last step in the workflow for testing the tool.
+* Commit and push.
+* CI will run in your fork of the downstream repo.
+
+Build issues and regressions should arise. You can commit your fixes to the feature branch and push again. Since the workflow and the PKGBUILD recipe build the head of the branch, there is no need to generate patches yet.
+
+_TBC_
+
+* _Discuss solutions with maintainers_.
+* _Propose having the MSYS2 CI added downstream_.
+* _How to generate patches and apply them to the PKGBUILD recipe to be upstreamed_.

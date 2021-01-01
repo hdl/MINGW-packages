@@ -1,0 +1,41 @@
+== Usage
+
+[quote, 'https://www.msys2.org/docs/what-is-msys2/[msys2.org: What is MSYS2?]']
+____
+MSYS2 (...) provides a native build environment, based on open source software, and makes you feel right at home when you are already comfortable with Linux.
+____
+
+[quote, 'https://www.msys2.org/wiki/Creating-Packages/#which-subsystem[msys2.org: Which subsystem?]']
+____
+In MSYS2 there are 2 types of packages:
+
+* MSYS packages - these run on the emulation layer and are typically POSIX-only programs.
+* MINGW packages - these run natively just like any other Windows program.
+
+You should think of these two systems as separate where msys packages should generally only be build dependencies of mingw packages.
+____
+
+[quote, 'https://www.msys2.org/docs/package-management/#package-repositories[msys2.org: Package repositories]']
+____
+There are 3 package repositories, *msys2*, *mingw32*, and *mingw64*. The packages in *msys2* are named just like on a Linux distribution, the packages in *mingw* are prefixed by either `mingw-w64-i686-` for 32-bit packages, or `mingw-w64-x86_64-` for 64-bit packages.
+____
+
+That is, projects/tools on MSYS2 feel like Unix when it comes to building them (GCC, clang, make, cmake, etc.), but the artifacts are native Windows binaries ("_just like any other Windows program_"). Typically, users want to install `mingw-w64-x86_64-` packages, which can be used outside of an MSYS2 environment optionally.
+
+TIP: See how to launch MSYS2 shells/terminals or how to use _Windows Terminal_ at https://www.msys2.org/docs/terminals/[msys2.org: Terminals].
+
+TIP: https://www.msys2.org/docs/package-management/#avoiding-writing-long-package-names[msys2.org: Avoiding writing long package names]
+
+=== Installation
+
+MSYS2 can be downloaded as a tarball or as a self-extracting installer with an optional GUI. Nevertheless, both of them produce the same result because MSYS2's installations are portable by default; i.e. they don't create any environment variables or registry entries on the system. For this same reason, it's possible to have several MSYS2 installations at the same time, without them colliding. Find the latest installers/tarballs at https://github.com/msys2/msys2-installer/releases[github.com/msys2/msys2-installer/releases] and follow the guidelines at https://www.msys2.org/#installation[msys2.org/#installation].
+
+MSYS2 borrows the package management plumbing from https://www.archlinux.org/[Arch Linux] (see https://www.msys2.org/docs/what-is-msys2/#msys2-vs-arch-linux[msys2.org: MSYS2 vs Arch Linux]). The default package manager is `pacman`, which is the same codebase as Arch's but ported/patched to work on MSYS2 (Windows). Guidelines for MSYS2's pacman are available at https://www.msys2.org/docs/package-management/[msys2.org: Package Management]. Nonetheless, guidelines at https://wiki.archlinux.org/index.php/pacman[wiki.archlinux.org/index.php/pacman] and https://wiki.archlinux.org/index.php/pacman/Tips_and_tricks[wiki.archlinux.org/index.php/pacman/Tips_and_tricks] can also be useful.
+
+==== Individual packages
+
+All upstreamed EDA packages are available through the default package manager (`pacman`), as any other regular MSYS2 package. Hence, you can search them with `pacman -Ss TOOL_NAME` (see https://www.msys2.org/docs/package-management/#finding-a-package[msys2.org: Finding a package]) and then install them with `pacman -S PACKAGE_NAME` (see https://www.msys2.org/docs/package-management/#installing-a-package[msys2.org: Installing a package]). Find further info at https://www.msys2.org/docs/package-management[msys2.org/docs/package-management].
+
+==== Package group `eda`
+
+Alternatively, there is a https://wiki.archlinux.org/index.php/Meta_package_and_package_group[package group] named `eda`, which you can install with `pacman -S mingw-w64-x86_64-eda` (64 bits) or `pacman -S mingw-w64-i686-eda` (32 bits). The list of tools will be shown, for you to choose installing all of them or some only. See https://packages.msys2.org/group/mingw-w64-x86_64-eda[mingw-w64-x86_64-eda] and/or https://packages.msys2.org/group/mingw-w64-i686-eda[mingw-w64-i686-eda].
