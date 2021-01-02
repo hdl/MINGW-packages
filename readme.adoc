@@ -267,7 +267,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 
 |https://hdl.github.io/awesome/items/fujprog[fujprog]
 |🟧
-|https://github.com/hdl/MINGW-packages/tree/fujprog/mingw-w64-fujprog[hdl/MINGW-packages@fujprog: mingw-w64-fujprog]
+|https://github.com/umarcor/MINGW-packages/tree/fujprog/mingw-w64-fujprog[umarcor/MINGW-packages@fujprog: mingw-w64-fujprog]
 |
 |
 |
