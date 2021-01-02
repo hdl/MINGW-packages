@@ -140,7 +140,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 
 |https://hdl.github.io/awesome/items/surelog[Surelog]
 |🟧
-|https://github.com/hdl/MINGW-packages/tree/surelog/mingw-w64-surelog[hdl/MINGW-packages@surelog: mingw-w64-surelog]
+|https://github.com/umarcor/MINGW-packages/tree/UHDM-Surelog/mingw-w64-surelog[umarcor/MINGW-packages@UHDM-Surelog: mingw-w64-surelog]
 |
 |
 |
@@ -164,7 +164,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 
 |https://hdl.github.io/awesome/items/uhdm[UHDM]
 |🟧
-|https://github.com/hdl/MINGW-packages/tree/UHDM/mingw-w64-UHDM[hdl/MINGW-packages@UHDM: mingw-w64-UHDM]
+|https://github.com/umarcor/MINGW-packages/tree/UHDM-Surelog/mingw-w64-UHDM[umarcor/MINGW-packages@UHDM-Surelog: mingw-w64-UHDM]
 |
 |
 |
