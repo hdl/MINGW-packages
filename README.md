@@ -1,9 +1,9 @@
 <p align="center">
-  <a title="GitHub Actions workflow 'main'" href="https://github.com/hdl/MINGW-packages/actions?query=workflow%3Amain"><img src="https://img.shields.io/github/workflow/status/hdl/MINGW-packages/main/master?longCache=true&style=flat-square&label=MSYS2&logo=Github%20Actions&logoColor=fff"></a><!--
+  <a title="msys/MINGW-package GitHub repository" href="https://github.com/msys2/MINGW-packages"><img src="https://img.shields.io/badge/msys-MINGW--packages-894c84?longCache=true&style=flat-square&label=MSYS2&logo=GitHub&logoColor=fff"></a><!--
   -->
-  <a title="GitHub Actions workflow 'Test'" href="https://github.com/hdl/MINGW-packages/actions?query=workflow%3ATest"><img src="https://img.shields.io/github/workflow/status/hdl/MINGW-packages/Test/main?longCache=true&style=flat-square&label=Test&logo=Github%20Actions&logoColor=fff"></a><!--
+  <a title="GitHub Actions workflow 'Test'" href="https://github.com/hdl/MINGW-packages/actions?query=workflow%3ATest"><img src="https://img.shields.io/github/workflow/status/hdl/MINGW-packages/Test/main?longCache=true&style=flat-square&label=Test&logo=GitHub%20Actions&logoColor=fff"></a><!--
   -->
-  <a title="GitHub Actions workflow 'Build'" href="https://github.com/hdl/MINGW-packages/actions?query=workflow%3ABuild"><img src="https://img.shields.io/github/workflow/status/hdl/MINGW-packages/Build/main?longCache=true&style=flat-square&label=Build&logo=Github%20Actions&logoColor=fff"></a><!--
+  <a title="GitHub Actions workflow 'Build'" href="https://github.com/hdl/MINGW-packages/actions?query=workflow%3ABuild"><img src="https://img.shields.io/github/workflow/status/hdl/MINGW-packages/Build/main?longCache=true&style=flat-square&label=Build&logo=GitHub%20Actions&logoColor=fff"></a><!--
   -->
 </p>
 
