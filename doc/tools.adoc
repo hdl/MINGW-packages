@@ -36,7 +36,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ghdl[mingw-w64-ghdl]
 |https://packages.msys2.org/package/mingw-w64-i686-ghdl-mcode[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ghdl-llvm[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/5757[#5757] https://github.com/msys2/MINGW-packages/pull/6688[#6688] https://github.com/msys2/MINGW-packages/pull/7510[#7510]
+|https://github.com/msys2/MINGW-packages/pull/5757[#5757] https://github.com/msys2/MINGW-packages/pull/6688[#6688] https://github.com/msys2/MINGW-packages/pull/7510[#7510] https://github.com/msys2/MINGW-packages/pull/7569[#7569]
 |
 |✔️
 
@@ -223,7 +223,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-yosys[mingw-w64-yosys]
 |https://packages.msys2.org/package/mingw-w64-i686-yosys[i686], https://packages.msys2.org/package/mingw-w64-x86_64-yosys[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7534[#7534]
+|https://github.com/msys2/MINGW-packages/pull/7534[#7534] https://github.com/msys2/MINGW-packages/pull/7569[#7569]
 |YosysHQ/yosys: https://github.com/YosysHQ/yosys/issues/2505[#2505] https://github.com/YosysHQ/yosys/issues/2507[#2507] https://github.com/YosysHQ/yosys/issues/2511[#2511] https://github.com/YosysHQ/yosys/issues/2512[#2512] https://github.com/YosysHQ/yosys/issues/2514[#2514] https://github.com/YosysHQ/yosys/issues/2515[#2515]
 |✔️
 
