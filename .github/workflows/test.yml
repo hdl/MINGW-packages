@@ -13,15 +13,16 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        msystem: [
-          MINGW64,
-          MINGW32
+        sys: [
+          { icon: '🟪', msystem: MINGW64 },
+          { icon: '🟦', msystem: MINGW32 },
         ]
         tool: [
           ghdl,
           #graphviz,
           #gtkwave,
           #verilator,
+          yosys,
           #z3,
           dfu-util,
           icesprog,
@@ -29,18 +30,22 @@ jobs:
           iverilog,
           #openocd
         ]
+    name: '${{ matrix.sys.icon }} ${{ matrix.sys.msystem }} · ${{ matrix.tool }}'
     defaults:
       run:
         shell: msys2 {0}
     steps:
 
-      - uses: actions/checkout@v2
-        with:
-          submodules: recursive
+    - name: '🧰 Checkout'
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
 
-      - uses: msys2/setup-msys2@v2
-        with:
-          msystem: ${{ matrix.msystem }}
-          update: true
+    - name: '${{ matrix.sys.icon }} Setup MSYS2'
+      uses: msys2/setup-msys2@v2
+      with:
+        msystem: ${{ matrix.sys.msystem }}
+        update: true
 
-      - run: ./test/${{ matrix.tool }}.sh
+    - name: '🏳️ Test'
+      run: ./test/${{ matrix.tool }}.sh
