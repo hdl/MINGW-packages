@@ -1,0 +1,47 @@
+name: Test FOMU workshop
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 0 * * 3'
+
+jobs:
+
+  test:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include: [
+          { icon: '🟪', msystem: MINGW64, arch: x86_64 },
+          { icon: '🟦', msystem: MINGW32, arch: i686   }
+        ]
+    name: '${{ matrix.icon }} ${{ matrix.msystem }}'
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+
+    - name: '${{ matrix.icon }} Setup MSYS2'
+      uses: msys2/setup-msys2@v2
+      with:
+        msystem: ${{ matrix.msystem }}
+        update: true
+        install: >
+          git
+          make
+          mingw-w64-${{ matrix.arch }}-icestorm
+          mingw-w64-${{ matrix.arch }}-yosys
+          mingw-w64-${{ matrix.arch }}-nextpnr
+
+    - name: Fomu workshop
+      run: |
+        git clone https://github.com/im-tomu/fomu-workshop
+        cd fomu-workshop
+        export FOMU_REV=pvt
+        for item in verilog vhdl mixed-hdl; do
+          cd ${item}/blink
+          make blink.json
+          cd ../..
+        done
