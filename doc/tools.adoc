@@ -276,7 +276,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-openFPGALoader[mingw-w64-openFPGALoader]
 |https://packages.msys2.org/package/mingw-w64-i686-openFPGALoader[i686], https://packages.msys2.org/package/mingw-w64-x86_64-openFPGALoader[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7351[#7351] https://github.com/msys2/MINGW-packages/pull/7404[#7404]
+|https://github.com/msys2/MINGW-packages/pull/7351[#7351] https://github.com/msys2/MINGW-packages/pull/7404[#7404] https://github.com/msys2/MINGW-packages/pull/7641[#7641]
 |https://github.com/trabucayre/openFPGALoader/pull/65[trabucayre/openFPGALoader#65]
 |✔️
 
