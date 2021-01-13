@@ -1,6 +1,8 @@
 <p align="center">
   <a title="msys/MINGW-package GitHub repository" href="https://github.com/msys2/MINGW-packages"><img src="https://img.shields.io/badge/msys-MINGW--packages-894c84?longCache=true&style=flat-square&label=MSYS2&logo=GitHub&logoColor=fff"></a><!--
   -->
+  <a title="hdl/packages GitHub repository" href="https://github.com/hdl/packages"><img src="https://img.shields.io/badge/hdl-packages-f2f1ef.svg?longCache=true&style=flat-square&logo=GitHub&logoColor=f2f1ef"></a><!--
+  -->
   <a title="GitHub Actions workflow 'Doc'" href="https://github.com/hdl/MINGW-packages/actions?query=workflow%3ADoc"><img src="https://img.shields.io/github/workflow/status/hdl/MINGW-packages/Doc/main?longCache=true&style=flat-square&label=Doc&logo=GitHub%20Actions&logoColor=fff"></a><!--
   -->
   <a title="GitHub Actions workflow 'Test'" href="https://github.com/hdl/MINGW-packages/actions?query=workflow%3ATest"><img src="https://img.shields.io/github/workflow/status/hdl/MINGW-packages/Test/main?longCache=true&style=flat-square&label=Test&logo=GitHub%20Actions&logoColor=fff"></a><!--
