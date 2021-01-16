@@ -60,7 +60,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-gtkwave[mingw-w64-gtkwave]
 |https://packages.msys2.org/package/mingw-w64-i686-gtkwave[i686], https://packages.msys2.org/package/mingw-w64-x86_64-gtkwave[x86_64]
-|
+|https://github.com/msys2/MINGW-packages/pull/7055[#7055] https://github.com/msys2/MINGW-packages/pull/7158[#7158] https://github.com/msys2/MINGW-packages/pull/7671[#7671]
 |
 |❔
 
