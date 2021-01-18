@@ -81,8 +81,8 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |❔
 
 |https://github.com/WerWolv/ImHex[ImHex]
-|⬜
-|
+|🟧
+|https://github.com/umarcor/MINGW-packages/tree/imhex/mingw-w64-imhex[umarcor/MINGW-packages@imhex: mingw-w64-imhex] https://github.com/umarcor/MINGW-packages/tree/imhex-1.6.1/mingw-w64-imhex[umarcor/MINGW-packages@imhex-1.6.1: mingw-w64-imhex]
 |
 |
 |
