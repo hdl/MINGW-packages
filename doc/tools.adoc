@@ -121,6 +121,14 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |✔️
 
+|https://hdl.github.io/awesome/items/serial-studio[Serial-Studio]
+|🟩
+|https://github.com/umarcor/MINGW-packages/tree/serialstudio/mingw-w64-serial-studio[umarcor/MINGW-packages@serialstudio: mingw-w64-serial-studio]
+|
+|https://github.com/msys2/MINGW-packages/pull/7682[#7682]
+|
+|❔
+
 |https://hdl.github.io/awesome/items/sigrok-cli[sigrok-cli]
 |⬜
 |
