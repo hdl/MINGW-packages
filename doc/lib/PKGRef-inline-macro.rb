@@ -64,12 +64,7 @@ Extensions.register do
       when 'pr'
         # TODO Is it possible to handle 'num' as an array of numbers (integers)?
         num = attrs['num']
-        # FIXME Is there a more idiomatic way of doing this? I.e. assigning a default value if empty/nil
-        repo = attrs['repo']
-        if repo == nil
-          repo = 'msys2/MINGW-packages'
-        end
-        (create_anchor parent, "##{num}", type: :link, target: "https://github.com/#{repo}/pull/#{num}").render
+        (create_anchor parent, "##{num}", type: :link, target: "https://github.com/#{attrs['repo'] || 'msys2/MINGW-packages'}/pull/#{num}").render
 
       end
     end
