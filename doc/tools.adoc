@@ -125,7 +125,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-serial-studio[mingw-w64-serial-studio]
 |https://packages.msys2.org/package/mingw-w64-i686-serial-studio[i686], https://packages.msys2.org/package/mingw-w64-x86_64-serial-studio[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7682[#7682]
+|https://github.com/msys2/MINGW-packages/pull/7682[#7682] https://github.com/msys2/MINGW-packages/pull/7845[#7845]
 |
 |❔
 
