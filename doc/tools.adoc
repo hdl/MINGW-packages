@@ -5,79 +5,81 @@ The complete list of available MSYS2 packages is shown at https://packages.msys2
 The following tables summarise the state (🟪 upstreamed, 🟩 ready but not upstreamed, 🟧 work in progress, ⬜ to do) of EDA related packages, and provide references to relevant issues/PRs regarding their support on MSYS2.
 
 |===
-|Tool |State |PKGBUILD |Packages |PRs |References |https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|Tool |State |PKGBUILD (Packages) |PRs |References |https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
 
 |https://github.com/khoapham/bitman[BitMan]
 |⬜
 |
 |
 |
-|
 |❔
 
-|https://hdl.github.io/awesome/items/boolector[Boolector]
+|PKGRef:awesome[tool=Boolector]
 |⬜
 |
 |
 |
-|
 |✔️
 
 
-|https://hdl.github.io/awesome/items/fritzing[fritzing]
+|PKGRef:awesome[tool=Fritzing]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-fritzing[mingw-w64-fritzing]
-|https://packages.msys2.org/package/mingw-w64-i686-fritzing[i686], https://packages.msys2.org/package/mingw-w64-x86_64-fritzing[x86_64]
+|PKGRef:recipe[tool=fritzing] (PKGRef:package[tool=fritzing])
 |
 |
 |❔
 
-|https://hdl.github.io/awesome/items/ghdl[GHDL]
+|PKGRef:awesome[tool=GHDL]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ghdl[mingw-w64-ghdl]
-|https://packages.msys2.org/package/mingw-w64-i686-ghdl-mcode[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ghdl-llvm[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/5757[#5757] https://github.com/msys2/MINGW-packages/pull/6688[#6688] https://github.com/msys2/MINGW-packages/pull/7510[#7510] https://github.com/msys2/MINGW-packages/pull/7606[#7606] https://github.com/msys2/MINGW-packages/pull/7685[#7685] https://github.com/msys2/MINGW-packages/pull/7817[#7817]
+|PKGRef:recipe[tool=ghdl] (
+ PKGRef:package[tool=ghdl-mcode, arch=i686],
+ PKGRef:package[tool=ghdl-llvm, arch=x86_64]
+)
+|PKGRef:pr[num=5757]
+ PKGRef:pr[num=6688]
+ PKGRef:pr[num=7510]
+ PKGRef:pr[num=7606]
+ PKGRef:pr[num=7685]
+ PKGRef:pr[num=7817]
 |
 |✔️
 
-|https://hdl.github.io/awesome/items/ghdl-yosys-plugin[ghdl-yosys-plugin]
+|PKGRef:awesome[tool=ghdl-yosys-plugin]
 |🟪
 |Built in yosys (see below)
 |-
-|-
 |
 |✔️
 
-|https://hdl.github.io/awesome/items/graphviz[Graphviz]
+|PKGRef:awesome[tool=Graphviz]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-graphviz[mingw-w64-graphviz]
-|https://packages.msys2.org/package/mingw-w64-i686-graphviz[i686], https://packages.msys2.org/package/mingw-w64-x86_64-graphviz[x86_64]
+|PKGRef:recipe[tool=graphviz] (PKGRef:package[tool=graphviz])
 |
 |
 |❔
 
-|https://hdl.github.io/awesome/items/gtkwave[GTKWave]
+|PKGRef:awesome[tool=GTKWave]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-gtkwave[mingw-w64-gtkwave]
-|https://packages.msys2.org/package/mingw-w64-i686-gtkwave[i686], https://packages.msys2.org/package/mingw-w64-x86_64-gtkwave[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7055[#7055] https://github.com/msys2/MINGW-packages/pull/7158[#7158] https://github.com/msys2/MINGW-packages/pull/7671[#7671]
+|PKGRef:recipe[tool=gtkwave] (PKGRef:package[tool=gtkwave])
+|PKGRef:pr[num=7055]
+ PKGRef:pr[num=7158]
+ PKGRef:pr[num=7671]
 |
 |❔
 
-|https://hdl.github.io/awesome/items/icestorm[icestorm]
+|PKGRef:awesome[tool=icestorm]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-icestorm[mingw-w64-icestorm]
-|https://packages.msys2.org/package/mingw-w64-i686-icestorm[i686], https://packages.msys2.org/package/mingw-w64-x86_64-icestorm[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7304[#7304]
+|PKGRef:recipe[tool=icestorm] (PKGRef:package[tool=icestorm])
+|PKGRef:pr[num=7304]
 |
 |✔️
 
-|https://hdl.github.io/awesome/items/iverilog[iverilog]
+|PKGRef:awesome[tool=iverilog]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-iverilog[mingw-w64-iverilog]
-|https://packages.msys2.org/package/mingw-w64-i686-iverilog[i686], https://packages.msys2.org/package/mingw-w64-x86_64-iverilog[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7341[#7341] https://github.com/msys2/MINGW-packages/pull/7401[#7401]
-|steveicarus/iverilog: https://github.com/steveicarus/iverilog/pull/398[#398]
+|PKGRef:recipe[tool=iverilog] (PKGRef:package[tool=iverilog])
+|PKGRef:pr[num=7341]
+ PKGRef:pr[num=7401]
+|PKGRef:pr[num=398, repo=steveicarus/iverilog]
 |❔
 
 |https://github.com/WerWolv/ImHex[ImHex]
@@ -88,66 +90,60 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |❔
 
-|https://hdl.github.io/awesome/items/kicad[KiCad]
+|PKGRef:awesome[tool=KiCad]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-kicad[mingw-w64-kicad]
-|https://packages.msys2.org/package/mingw-w64-i686-kicad[i686], https://packages.msys2.org/package/mingw-w64-x86_64-kicad[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7444[#7444]
+|PKGRef:recipe[tool=kicad] (PKGRef:package[tool=kicad])
+|PKGRef:pr[num=7444]
 |
 |❔
 
-|https://hdl.github.io/awesome/items/nextpnr[nextpnr]
+|PKGRef:awesome[tool=nextpnr]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-nextpnr[mingw-w64-nextpnr]
-|https://packages.msys2.org/package/mingw-w64-i686-nextpnr[i686], https://packages.msys2.org/package/mingw-w64-x86_64-nextpnr[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7542[#7542]
-|YosysHQ/nextpnr: https://github.com/YosysHQ/nextpnr/issues/546[#546]
+|PKGRef:recipe[tool=nextpnr] (PKGRef:package[tool=nextpnr])
+|PKGRef:pr[num=7542]
+|https://github.com/YosysHQ/nextpnr/issues/546[#546]
 |✔️
 
 
-|https://hdl.github.io/awesome/items/ngspice[ngspice]
+|PKGRef:awesome[tool=ngspice]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ngspice[mingw-w64-ngspice]
-|https://packages.msys2.org/package/mingw-w64-i686-ngspice[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ngspice[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7450[#7450] https://github.com/msys2/MINGW-packages/pull/7503[#7503]
+|PKGRef:recipe[tool=ngspice] (PKGRef:package[tool=ngspice])
+|PKGRef:pr[num=7450]
+ PKGRef:pr[num=7503]
 |
 |❔
 
-|https://hdl.github.io/awesome/items/prjtrellis[prjtrellis]
+|PKGRef:awesome[tool=prjtrellis]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-prjtrellis[mingw-w64-prjtrellis]
-|https://packages.msys2.org/package/mingw-w64-i686-prjtrellis[i686], https://packages.msys2.org/package/mingw-w64-x86_64-prjtrellis[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7509[#7509]
+|PKGRef:recipe[tool=prjtrellis] (PKGRef:package[tool=prjtrellis])
+|PKGRef:pr[num=7509]
 |
 |✔️
 
-|https://hdl.github.io/awesome/items/serial-studio[Serial-Studio]
+|PKGRef:awesome[tool=Serial-Studio]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-serial-studio[mingw-w64-serial-studio]
-|https://packages.msys2.org/package/mingw-w64-i686-serial-studio[i686], https://packages.msys2.org/package/mingw-w64-x86_64-serial-studio[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7682[#7682] https://github.com/msys2/MINGW-packages/pull/7845[#7845]
+|PKGRef:recipe[tool=serial-studio] (PKGRef:package[tool=serial-studio])
+|PKGRef:pr[num=7682]
+ PKGRef:pr[num=7845]
 |
 |❔
 
-|https://hdl.github.io/awesome/items/sigrok-cli[sigrok-cli]
+|PKGRef:awesome[tool=sigrok-cli]
 |⬜
 |
 |
 |
-|
 |❔
 
-|https://hdl.github.io/awesome/items/surelog[Surelog]
+|PKGRef:awesome[tool=Surelog]
 |🟧
 |https://github.com/umarcor/MINGW-packages/tree/UHDM-Surelog/mingw-w64-surelog[umarcor/MINGW-packages@UHDM-Surelog: mingw-w64-surelog]
 |
 |
-|
 |❔
 
-|https://hdl.github.io/awesome/items/symbiyosys[SymbiYosys]
+|PKGRef:awesome[tool=SymbiYosys]
 |⬜
-|
 |
 |
 |
@@ -158,31 +154,28 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
-|
 |❔
 
-|https://hdl.github.io/awesome/items/uhdm[UHDM]
+|PKGRef:awesome[tool=UHDM]
 |🟧
 |https://github.com/umarcor/MINGW-packages/tree/UHDM-Surelog/mingw-w64-UHDM[umarcor/MINGW-packages@UHDM-Surelog: mingw-w64-UHDM]
 |
 |
-|
 |❔
 
-|https://hdl.github.io/awesome/items/verible[Verible]
+|PKGRef:awesome[tool=Verible]
 |⬜
 |
 |
 |
-|
 |❔
 
-|https://hdl.github.io/awesome/items/verilator[Verilator]
+|PKGRef:awesome[tool=Verilator]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator[mingw-w64-verilator]
-|https://packages.msys2.org/package/mingw-w64-i686-verilator[i686], https://packages.msys2.org/package/mingw-w64-x86_64-verilator[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7424[#7424]
-|verilator/verilator: https://github.com/verilator/verilator/pull/2681[#2681] https://github.com/verilator/verilator/pull/2685[#2685]
+|PKGRef:recipe[tool=verilator] (PKGRef:package[tool=verilator])
+|PKGRef:pr[num=7424]
+|PKGRef:pr[num=2681, repo=verilator/verilator]
+ PKGRef:pr[num=2685, repo=verilator/verilator]
 |❔
 
 
@@ -191,54 +184,53 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |
 |
-|
 |❔
 
-|https://hdl.github.io/awesome/items/vpr[VPR]
+|PKGRef:awesome[tool=VPR]
 |⬜
 |
 |
 |
-|
 |❔
 
 
-|https://hdl.github.io/awesome/items/vtr[VTR]
+|PKGRef:awesome[tool=VTR]
 |⬜
 |
 |
 |
-|
 |❔
 
-|https://hdl.github.io/awesome/items/xyce[Xyce]
+|PKGRef:awesome[tool=Xyce]
 |⬜
 |
 |
 |
-|
 |❔
 
-|https://hdl.github.io/awesome/items/yices2[Yices 2]
+|PKGRef:awesome[tool=Yices 2]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-yices[mingw-w64-yices]
-|https://packages.msys2.org/package/mingw-w64-i686-yices[i686], https://packages.msys2.org/package/mingw-w64-x86_64-yices[x86_64]
+|PKGRef:recipe[tool=yices] (PKGRef:package[tool=yices])
 |
 |
 |✔️
 
-|https://hdl.github.io/awesome/items/yosys[Yosys]
+|PKGRef:awesome[tool=Yosys]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-yosys[mingw-w64-yosys]
-|https://packages.msys2.org/package/mingw-w64-i686-yosys[i686], https://packages.msys2.org/package/mingw-w64-x86_64-yosys[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7534[#7534] https://github.com/msys2/MINGW-packages/pull/7606[#7606]
-|YosysHQ/yosys: https://github.com/YosysHQ/yosys/issues/2505[#2505] https://github.com/YosysHQ/yosys/issues/2507[#2507] https://github.com/YosysHQ/yosys/issues/2511[#2511] https://github.com/YosysHQ/yosys/issues/2512[#2512] https://github.com/YosysHQ/yosys/issues/2514[#2514] https://github.com/YosysHQ/yosys/issues/2515[#2515]
+|PKGRef:recipe[tool=yosys] (PKGRef:package[tool=yosys])
+|PKGRef:pr[num=7534]
+ PKGRef:pr[num=7606]
+|https://github.com/YosysHQ/yosys/issues/2505[#2505]
+ PKGRef:pr[num=2507, repo=YosysHQ/yosys]
+ PKGRef:pr[num=2511, repo=YosysHQ/yosys]
+ PKGRef:pr[num=2512, repo=YosysHQ/yosys]
+ PKGRef:pr[num=2514, repo=YosysHQ/yosys]
+ PKGRef:pr[num=2515, repo=YosysHQ/yosys]
 |✔️
 
-|https://hdl.github.io/awesome/items/z3[Z3]
+|PKGRef:awesome[tool=Z3]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-verilator[mingw-w64-z3]
-|https://packages.msys2.org/package/mingw-w64-i686-z3[i686], https://packages.msys2.org/package/mingw-w64-x86_64-z3[x86_64]
+|PKGRef:recipe[tool=z3] (PKGRef:package[tool=z3])
 |
 |
 |✔️
@@ -246,52 +238,50 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |===
 
 |===
-|Board programming |State |PKGBUILD |Packages |PRs |References |https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
+|Board programming |State |PKGBUILD (Packages) |PRs |References |https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain] (static)
 
-|https://hdl.github.io/awesome/items/dfu-util[dfu-util]
+|PKGRef:awesome[tool=dfu-util]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-dfu-util[mingw-w64-dfu-util]
-|https://packages.msys2.org/package/mingw-w64-i686-dfu-util[i686], https://packages.msys2.org/package/mingw-w64-x86_64-dfu-util[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7400[#7400]
+|PKGRef:recipe[tool=dfu-util] (PKGRef:package[tool=dfu-util])
+|PKGRef:pr[num=7400]
 |
 |✔️
 
-|https://hdl.github.io/awesome/items/ecpprog[ecpprog]
+|PKGRef:awesome[tool=ecpprog]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-ecpprog[mingw-w64-ecpprog]
-|https://packages.msys2.org/package/mingw-w64-i686-ecpprog[i686], https://packages.msys2.org/package/mingw-w64-x86_64-ecpprog[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7349[#7349] https://github.com/msys2/MINGW-packages/pull/7403[#7403]
+|PKGRef:recipe[tool=ecpprog] (PKGRef:package[tool=ecpprog])
+|PKGRef:pr[num=7349]
+ PKGRef:pr[num=7403]
 |
 |✔️
 
-|https://hdl.github.io/awesome/items/fujprog[fujprog]
+|PKGRef:awesome[tool=fujprog]
 |🟧
 |https://github.com/umarcor/MINGW-packages/tree/fujprog/mingw-w64-fujprog[umarcor/MINGW-packages@fujprog: mingw-w64-fujprog]
 |
 |
+|❔
+
+|PKGRef:awesome[tool=icesprog]
+|🟪
+|PKGRef:recipe[tool=icesprog] (PKGRef:package[tool=icesprog])
+|PKGRef:pr[num=7308]
+ PKGRef:pr[num=7352]
 |
 |❔
 
-|https://hdl.github.io/awesome/items/icesprog[icesprog]
+|PKGRef:awesome[tool=openFPGALoader]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-icesprog[mingw-w64-icesprog]
-|https://packages.msys2.org/package/mingw-w64-i686-icesprog[i686], https://packages.msys2.org/package/mingw-w64-x86_64-icesprog[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7308[#7308] https://github.com/msys2/MINGW-packages/pull/7352[#7352]
-|
-|❔
-
-|https://hdl.github.io/awesome/items/openfpgaloader[openFPGALoader]
-|🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-openFPGALoader[mingw-w64-openFPGALoader]
-|https://packages.msys2.org/package/mingw-w64-i686-openFPGALoader[i686], https://packages.msys2.org/package/mingw-w64-x86_64-openFPGALoader[x86_64]
-|https://github.com/msys2/MINGW-packages/pull/7351[#7351] https://github.com/msys2/MINGW-packages/pull/7404[#7404] https://github.com/msys2/MINGW-packages/pull/7641[#7641]
-|https://github.com/trabucayre/openFPGALoader/pull/65[trabucayre/openFPGALoader#65]
+|PKGRef:recipe[tool=openFPGALoader] (PKGRef:package[tool=openFPGALoader])
+|PKGRef:pr[num=7351]
+ PKGRef:pr[num=7404]
+ PKGRef:pr[num=7641]
+|PKGRef:pr[num=65, repo=trabucayre/openFPGALoader]
 |✔️
 
-|https://hdl.github.io/awesome/items/openocd[OpenOCD]
+|PKGRef:awesome[tool=OpenOCD]
 |🟪
-|https://github.com/msys2/MINGW-packages/tree/master/mingw-w64-openocd[mingw-w64-openocd]
-|https://packages.msys2.org/package/mingw-w64-i686-openocd[i686], https://packages.msys2.org/package/mingw-w64-x86_64-openocd4[x86_64]
+|PKGRef:recipe[tool=openocd] (PKGRef:package[tool=openocd])
 |
 |
 |❔

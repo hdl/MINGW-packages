@@ -4,4 +4,7 @@ set -e
 
 cd $(dirname "$0")
 
-asciidoctor -r asciidoctor-diagram index.adoc
+asciidoctor \
+  -r ./lib/PKGRef-inline-macro.rb \
+  -r asciidoctor-diagram \
+  index.adoc
