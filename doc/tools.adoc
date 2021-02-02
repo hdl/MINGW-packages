@@ -175,6 +175,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |PKGRef:recipe[tool=verilator] (PKGRef:package[tool=verilator])
 |PKGRef:pr[num=7424]
+ PKGRef:pr[num=7872]
 |PKGRef:pr[num=2681, repo=verilator/verilator]
  PKGRef:pr[num=2685, repo=verilator/verilator]
 |❔
