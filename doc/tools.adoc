@@ -80,6 +80,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:recipe[tool=iverilog] (PKGRef:package[tool=iverilog])
 |PKGRef:pr[num=7341]
  PKGRef:pr[num=7401]
+ PKGRef:pr[num=7967]
 |PKGRef:pr[num=398, repo=steveicarus/iverilog]
 |❔
 
