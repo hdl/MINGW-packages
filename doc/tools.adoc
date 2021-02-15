@@ -271,6 +271,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:recipe[tool=icesprog] (PKGRef:package[tool=icesprog])
 |PKGRef:pr[num=7308]
  PKGRef:pr[num=7352]
+ PKGRef:pr[num=7966]
 |
 |❔
 
