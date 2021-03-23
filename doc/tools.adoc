@@ -98,6 +98,13 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |
 |❔
 
+|PKGRef:awesome[tool=KLayout]
+|⬜
+|
+|
+|https://github.com/KLayout/klayout/issues/755[#755]
+|❔
+
 |PKGRef:awesome[tool=nextpnr]
 |🟪
 |PKGRef:recipe[tool=nextpnr] (PKGRef:package[tool=nextpnr])
