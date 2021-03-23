@@ -42,6 +42,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=7685]
  PKGRef:pr[num=7817]
  PKGRef:pr[num=7880]
+ PKGRef:pr[num=8180]
 |
 |✔️
 
@@ -72,6 +73,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |PKGRef:recipe[tool=icestorm] (PKGRef:package[tool=icestorm])
 |PKGRef:pr[num=7304]
+ PKGRef:pr[num=8180]
 |
 |✔️
 
@@ -81,6 +83,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:pr[num=7341]
  PKGRef:pr[num=7401]
  PKGRef:pr[num=7967]
+ PKGRef:pr[num=8180]
 |PKGRef:pr[num=398, repo=steveicarus/iverilog]
 |❔
 
@@ -126,6 +129,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |PKGRef:recipe[tool=prjtrellis] (PKGRef:package[tool=prjtrellis])
 |PKGRef:pr[num=7509]
+ PKGRef:pr[num=8180]
 |
 |✔️
 
@@ -135,6 +139,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:pr[num=7682]
  PKGRef:pr[num=7845]
  PKGRef:pr[num=7964]
+ PKGRef:pr[num=8180]
 |
 |❔
 
@@ -185,6 +190,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:recipe[tool=verilator] (PKGRef:package[tool=verilator])
 |PKGRef:pr[num=7424]
  PKGRef:pr[num=7872]
+ PKGRef:pr[num=8180]
 |PKGRef:pr[num=2681, repo=verilator/verilator]
  PKGRef:pr[num=2685, repo=verilator/verilator]
 |❔
@@ -232,6 +238,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:pr[num=7534]
  PKGRef:pr[num=7606]
  PKGRef:pr[num=7965]
+ PKGRef:pr[num=8180]
 |https://github.com/YosysHQ/yosys/issues/2505[#2505]
  PKGRef:pr[num=2507, repo=YosysHQ/yosys]
  PKGRef:pr[num=2511, repo=YosysHQ/yosys]
