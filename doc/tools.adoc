@@ -133,6 +133,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:recipe[tool=prjtrellis] (PKGRef:package[tool=prjtrellis])
 |PKGRef:pr[num=7509]
  PKGRef:pr[num=8180]
+ PKGRef:pr[num=8414]
 |
 |✔️
 
