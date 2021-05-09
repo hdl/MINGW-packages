@@ -45,6 +45,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8180]
  PKGRef:pr[num=8260]
  PKGRef:pr[num=8451]
+ PKGRef:pr[num=8621]
 |
 |✔️
 
