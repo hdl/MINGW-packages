@@ -102,6 +102,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |🟪
 |PKGRef:recipe[tool=kicad] (PKGRef:package[tool=kicad])
 |PKGRef:pr[num=7444]
+ PKGRef:pr[num=8622]
 |
 |❔
 
