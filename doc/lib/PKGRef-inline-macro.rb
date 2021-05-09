@@ -42,7 +42,7 @@ Extensions.register do
 
       when 'awesome'
         tool = attrs['tool']
-        (create_anchor parent, tool, type: :link, target: "https://hdl.github.io/awesome/items/#{tool.downcase}").render
+        (create_anchor parent, tool, type: :link, target: "https://hdl.github.io/awesome/items/#{tool.downcase.delete(' ')}").render
 
       when 'recipe'
         tool = attrs['tool']
