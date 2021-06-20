@@ -37,9 +37,9 @@ pacman -S --needed --noconfirm git
 #curl -fsSL https://codeload.github.com/im-tomu/fomu-workshop/tar.gz/master | tar xzf - --strip-components=1
 
 git clone https://github.com/im-tomu/fomu-workshop
-cd fomu-workshop
+cd fomu-workshop/hdl
 
-for item in verilog vhdl mixed-hdl; do
+for item in verilog vhdl mixed; do
   cd ${item}/blink
   make blink.json
   cd ../..
