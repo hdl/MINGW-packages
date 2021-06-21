@@ -149,7 +149,8 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:awesome[tool=scopehal]
 |🟪
 |PKGRef:recipe[tool=scopehal-apps] (PKGRef:package[tool=scopehal-apps])
-| PKGRef:pr[num=8676]
+|PKGRef:pr[num=8676]
+ PKGRef:pr[num=8972]
 |
 |❔
 
