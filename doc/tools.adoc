@@ -121,6 +121,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:recipe[tool=nextpnr] (PKGRef:package[tool=nextpnr])
 |PKGRef:pr[num=7542]
  PKGRef:pr[num=8231]
+ PKGRef:pr[num=8956]
 |https://github.com/YosysHQ/nextpnr/issues/546[#546]
 |✔️
 
@@ -141,6 +142,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8180]
  PKGRef:pr[num=8414]
  PKGRef:pr[num=8466]
+ PKGRef:pr[num=8956]
 |
 |✔️
 
@@ -260,6 +262,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=7965]
  PKGRef:pr[num=8180]
  PKGRef:pr[num=8290]
+ PKGRef:pr[num=8956]
 |https://github.com/YosysHQ/yosys/issues/2505[#2505]
  PKGRef:pr[num=2507, repo=YosysHQ/yosys]
  PKGRef:pr[num=2511, repo=YosysHQ/yosys]
