@@ -325,6 +325,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=7971]
  PKGRef:pr[num=8300]
  PKGRef:pr[num=8965]
+ PKGRef:pr[num=8995]
 |PKGRef:pr[num=65, repo=trabucayre/openFPGALoader]
 |✔️
 
