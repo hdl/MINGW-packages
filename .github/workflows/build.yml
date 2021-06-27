@@ -36,7 +36,7 @@ jobs:
         ]
     name: ${{ matrix.sys.msystem }} | ${{ matrix.sys.arch }} | ${{ matrix.tool }}
     env:
-      MINGW_INSTALLS: ${{ matrix.sys.msystem }}
+      MINGW_ARCH: ${{ matrix.sys.msystem }}
     defaults:
       run:
         shell: msys2 {0}
