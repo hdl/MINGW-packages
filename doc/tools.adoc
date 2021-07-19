@@ -47,6 +47,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8451]
  PKGRef:pr[num=8621]
  PKGRef:pr[num=8934]
+ PKGRef:pr[num=9172]
 |
 |✔️
 
@@ -91,6 +92,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=7401]
  PKGRef:pr[num=7967]
  PKGRef:pr[num=8180]
+ PKGRef:pr[num=9172]
 |PKGRef:pr[num=398, repo=steveicarus/iverilog]
 |❔
 
@@ -123,6 +125,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:pr[num=7542]
  PKGRef:pr[num=8231]
  PKGRef:pr[num=8956]
+ PKGRef:pr[num=9172]
 |https://github.com/YosysHQ/nextpnr/issues/546[#546]
 |✔️
 
@@ -144,6 +147,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8414]
  PKGRef:pr[num=8466]
  PKGRef:pr[num=8956]
+ PKGRef:pr[num=9172]
 |
 |✔️
 
@@ -152,6 +156,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:recipe[tool=scopehal-apps] (PKGRef:package[tool=scopehal-apps])
 |PKGRef:pr[num=8676]
  PKGRef:pr[num=8972]
+ PKGRef:pr[num=9172]
 |
 |❔
 
@@ -266,6 +271,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8180]
  PKGRef:pr[num=8290]
  PKGRef:pr[num=8956]
+ PKGRef:pr[num=9172]
 |https://github.com/YosysHQ/yosys/issues/2505[#2505]
  PKGRef:pr[num=2507, repo=YosysHQ/yosys]
  PKGRef:pr[num=2511, repo=YosysHQ/yosys]
@@ -298,6 +304,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:recipe[tool=ecpprog] (PKGRef:package[tool=ecpprog])
 |PKGRef:pr[num=7349]
  PKGRef:pr[num=7403]
+ PKGRef:pr[num=9172]
 |
 |✔️
 
