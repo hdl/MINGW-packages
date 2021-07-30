@@ -16,11 +16,27 @@ printf '\n::group::Install iverilog through pacman\n'
     ;;
   esac
 
-  pacman -S --noconfirm mingw-w64-${_arch}-iverilog
+  pacman -S --noconfirm \
+    diffutils \
+    git \
+    make \
+    mingw-w64-${_arch}-gcc \
+    mingw-w64-${_arch}-python-pip \
+    mingw-w64-${_arch}-python-pytest \
+    mingw-w64-${_arch}-python-wheel \
+    mingw-w64-${_arch}-iverilog
 echo '::endgroup::'
 
 printf '\nSmoke tests\n'
 ./smoke-tests/iverilog.sh || cat iverilog.log
+
+printf '\nTest cocotb\n'
+mkdir cocotb
+cd cocotb
+curl -fsSL https://codeload.github.com/cocotb/cocotb/tar.gz/master | tar xzf - --strip-components=1
+pip install --no-build-isolation .
+make SIM=icarus TOPLEVEL_LANG=verilog
+cd ..
 
 printf '\n::group::iverilog-tutorial\n'
   mkdir iverilog-tutorial

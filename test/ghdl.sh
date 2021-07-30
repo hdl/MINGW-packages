@@ -8,14 +8,8 @@ cd $(dirname "$0")
 
 printf '\n::group::Install ghdl through pacman\n'
   case "$MSYSTEM" in
-    MINGW64|mingw64)
-      _arch='x86_64'
-      _pkg_suffix='-llvm'
-    ;;
-    MINGW32|mingw32)
-      _arch='i686'
-      _pkg_suffix='-mcode'
-    ;;
+    MINGW64|mingw64) _arch='x86_64' ;;
+    MINGW32|mingw32) _arch='i686'   ;;
     *)
       echo 'Unknown MSYSTEM: $MSYSTEM'
       exit 1
@@ -25,8 +19,12 @@ printf '\n::group::Install ghdl through pacman\n'
   pacman -S --noconfirm \
     diffutils \
     git \
-    mingw-w64-${_arch}-ghdl${_pkg_suffix} \
-    mingw-w64-${_arch}-python-pip
+    make \
+    mingw-w64-${_arch}-gcc \
+    mingw-w64-${_arch}-ghdl \
+    mingw-w64-${_arch}-python-pip \
+    mingw-w64-${_arch}-python-pytest \
+    mingw-w64-${_arch}-python-wheel
 echo '::endgroup::'
 
 printf '\nSmoke tests\n'
@@ -36,12 +34,21 @@ printf '\n::group::Version\n'
   ghdl --version
 echo '::endgroup::'
 
+printf '\nTest cocotb\n'
+mkdir cocotb
+cd cocotb
+curl -fsSL https://codeload.github.com/cocotb/cocotb/tar.gz/master | tar xzf - --strip-components=1
+pip install --no-build-isolation .
+make SIM=ghdl TOPLEVEL_LANG=vhdl
+cd ..
+
 printf '\n::group::Install pyGHDL\n'
 pip3 install git+https://github.com/ghdl/ghdl.git@$(ghdl version hash)
 echo '::endgroup::'
 
-printf '\nIs ghdl-ls installed?\n'
-which ghdl-ls
+printf '\nAre Python entrypoints installed?\n'
+ghdl-ls
+ghdl-dom
 
 printf '\nRun GHDL testuite\n'
 mkdir ghdl
