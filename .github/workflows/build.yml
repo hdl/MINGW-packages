@@ -14,8 +14,8 @@ jobs:
       max-parallel: 10
       matrix:
         sys:
-          - { msystem: MINGW64, arch: x86_64 }
-          - { msystem: MINGW32, arch: i686   }
+          - { icon: '🟦', msystem: MINGW64, arch: x86_64 }
+          - { icon: '🟪', msystem: MINGW32, arch: i686   }
         tool: [
           fritzing,
           ghdl,
@@ -42,12 +42,14 @@ jobs:
         shell: msys2 {0}
     steps:
 
-    - uses: actions/checkout@v2
+    - name: '🧰 Checkout'
+      uses: actions/checkout@v2
       with:
         repository: msys2/MINGW-packages
         ref: master
 
-    - uses: msys2/setup-msys2@v2
+    - name: '${{ matrix.sys.icon }} Setup MSYS2'
+      uses: msys2/setup-msys2@v2
       with:
         msystem: ${{ matrix.sys.msystem }}
         update: true
@@ -56,7 +58,7 @@ jobs:
           git
           mingw-w64-${{ matrix.sys.arch }}-toolchain
 
-    - name: Build ${{ matrix.tool }}
+    - name: '🏳️ Build ${{ matrix.tool }}'
       run: |
         cd mingw-w64-${{ matrix.tool }}
         makepkg-mingw --noconfirm --noprogressbar -sCLf --nocheck

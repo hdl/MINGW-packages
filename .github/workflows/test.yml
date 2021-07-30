@@ -14,8 +14,8 @@ jobs:
       fail-fast: false
       matrix:
         sys: [
-          { icon: '🟪', msystem: MINGW64 },
-          { icon: '🟦', msystem: MINGW32 },
+          { icon: '🟦', msystem: MINGW64 },
+          { icon: '🟪', msystem: MINGW32 },
         ]
         tool: [
           ghdl,
