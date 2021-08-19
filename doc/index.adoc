@@ -27,3 +27,9 @@ include::tools.adoc[]
 include::usage.adoc[]
 
 include::contributing.adoc[]
+
+== References
+
+* https://github.com/sylefeb/fpga-binutils[sylefeb/fpga-binutils]
+* https://github.com/open-tool-forge/fpga-toolchain[open-tool-forge/fpga-toolchain]
+* https://github.com/DiodeRed/MinGW-FPGA-Packages[DiodeRed/MinGW-FPGA-Packages]
