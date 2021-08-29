@@ -94,6 +94,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=7967]
  PKGRef:pr[num=8180]
  PKGRef:pr[num=9172]
+ PKGRef:pr[num=9444]
 |PKGRef:pr[num=398, repo=steveicarus/iverilog]
 |❔
 
@@ -127,6 +128,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8231]
  PKGRef:pr[num=8956]
  PKGRef:pr[num=9172]
+ PKGRef:pr[num=9444]
 |https://github.com/YosysHQ/nextpnr/issues/546[#546]
 |✔️
 
@@ -160,6 +162,8 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:pr[num=8676]
  PKGRef:pr[num=8972]
  PKGRef:pr[num=9172]
+ PKGRef:pr[num=9444]
+ PKGRef:pr[num=9485]
 |
 |❔
 
@@ -275,6 +279,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8290]
  PKGRef:pr[num=8956]
  PKGRef:pr[num=9172]
+ PKGRef:pr[num=9444]
 |https://github.com/YosysHQ/yosys/issues/2505[#2505]
  PKGRef:pr[num=2507, repo=YosysHQ/yosys]
  PKGRef:pr[num=2511, repo=YosysHQ/yosys]
