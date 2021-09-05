@@ -167,6 +167,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=9172]
  PKGRef:pr[num=9444]
  PKGRef:pr[num=9485]
+ PKGRef:pr[num=9524]
 |PKGRef:pr[num=388, repo=azonenberg/scopehal-apps]
 |❔
 
