@@ -50,6 +50,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=9172]
  PKGRef:pr[num=9468]
  PKGRef:pr[num=9495]
+ PKGRef:pr[num=9597]
 |
 |✔️
 
@@ -76,6 +77,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8620]
  PKGRef:pr[num=8669]
  PKGRef:pr[num=8987]
+ PKGRef:pr[num=9597]
 |
 |❔
 
@@ -84,6 +86,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
 |PKGRef:recipe[tool=icestorm] (PKGRef:package[tool=icestorm])
 |PKGRef:pr[num=7304]
  PKGRef:pr[num=8180]
+ PKGRef:pr[num=9597]
 |
 |✔️
 
@@ -97,6 +100,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=9172]
  PKGRef:pr[num=9444]
  PKGRef:pr[num=9495]
+ PKGRef:pr[num=9597]
 |PKGRef:pr[num=398, repo=steveicarus/iverilog]
 |❔
 
@@ -132,6 +136,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=9172]
  PKGRef:pr[num=9444]
  PKGRef:pr[num=9495]
+ PKGRef:pr[num=9597]
 |https://github.com/YosysHQ/nextpnr/issues/546[#546]
 |✔️
 
@@ -156,6 +161,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8466]
  PKGRef:pr[num=8956]
  PKGRef:pr[num=9172]
+ PKGRef:pr[num=9597]
 |
 |✔️
 
@@ -286,6 +292,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=9172]
  PKGRef:pr[num=9444]
  PKGRef:pr[num=9495]
+ PKGRef:pr[num=9597]
 |https://github.com/YosysHQ/yosys/issues/2505[#2505]
  PKGRef:pr[num=2507, repo=YosysHQ/yosys]
  PKGRef:pr[num=2511, repo=YosysHQ/yosys]
