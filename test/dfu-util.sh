@@ -6,17 +6,8 @@ cd $(dirname "$0")
 
 ./env.sh
 
-printf '\n::group::Install dfu-util through pacman\n'
-  case "$MSYSTEM" in
-    MINGW64|mingw64) _arch='x86_64' ;;
-    MINGW32|mingw32) _arch='i686'   ;;
-    *)
-      echo 'Unknown MSYSTEM: $MSYSTEM'
-      exit 1
-    ;;
-  esac
-
-  pacman -S --noconfirm mingw-w64-${_arch}-dfu-util
+printf '\n::group::Install dfu-util through pacboy\n'
+pacboy -S --noconfirm dfu-util:p
 echo '::endgroup::'
 
 printf '\nSmoke tests\n'

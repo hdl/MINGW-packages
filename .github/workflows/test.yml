@@ -47,6 +47,7 @@ jobs:
       with:
         msystem: ${{ matrix.sys.msystem }}
         update: true
+        install: pactoys
 
     - name: '🏳️ Test'
       run: ./test/${{ matrix.tool }}.sh

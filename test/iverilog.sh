@@ -6,25 +6,18 @@ cd $(dirname "$0")
 
 ./env.sh
 
-printf '\n::group::Install iverilog through pacman\n'
-  case "$MSYSTEM" in
-    MINGW64|mingw64) _arch='x86_64' ;;
-    MINGW32|mingw32) _arch='i686'   ;;
-    *)
-      echo 'Unknown MSYSTEM: $MSYSTEM'
-      exit 1
-    ;;
-  esac
+printf '\n::group::Install iverilog and dependencies through pacman and pacboy\n'
+pacman -S --noconfirm \
+  diffutils \
+  git \
+  make
 
-  pacman -S --noconfirm \
-    diffutils \
-    git \
-    make \
-    mingw-w64-${_arch}-gcc \
-    mingw-w64-${_arch}-python-pip \
-    mingw-w64-${_arch}-python-pytest \
-    mingw-w64-${_arch}-python-wheel \
-    mingw-w64-${_arch}-iverilog
+pacboy -S --noconfirm \
+  gcc:p \
+  python-pip:p \
+  python-pytest:p \
+  python-wheel:p \
+  iverilog:p
 echo '::endgroup::'
 
 printf '\nSmoke tests\n'

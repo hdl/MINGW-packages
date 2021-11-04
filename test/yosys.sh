@@ -6,17 +6,9 @@ cd $(dirname "$0")
 
 ./env.sh
 
-printf '\n::group::Install ghdl through pacman\n'
-  case "$MSYSTEM" in
-    MINGW64|mingw64) _arch='x86_64' ;;
-    MINGW32|mingw32) _arch='i686'   ;;
-    *)
-      echo 'Unknown MSYSTEM: $MSYSTEM'
-      exit 1
-    ;;
-  esac
-
-  pacman -S --noconfirm make mingw-w64-${_arch}-yosys
+printf '\n::group::Install yosys and dependencies through pacman and pacboy\n'
+pacman -S --noconfirm make
+pacboy -S --noconfirm yosys:p
 echo '::endgroup::'
 
 printf '\nSmoke tests\n'
