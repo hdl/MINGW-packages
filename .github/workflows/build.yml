@@ -14,8 +14,8 @@ jobs:
       max-parallel: 10
       matrix:
         sys:
-          - { icon: '🟦', msystem: MINGW64, arch: x86_64 }
-          - { icon: '🟪', msystem: MINGW32, arch: i686   }
+          - { icon: '🟦', msystem: MINGW64 }
+          - { icon: '🟪', msystem: MINGW32 }
         tool: [
           fritzing,
           ghdl,
@@ -34,7 +34,7 @@ jobs:
           openFPGALoader,
           openocd
         ]
-    name: ${{ matrix.sys.msystem }} | ${{ matrix.sys.arch }} | ${{ matrix.tool }}
+    name: ${{ matrix.sys.msystem }} | ${{ matrix.tool }}
     env:
       MINGW_ARCH: ${{ matrix.sys.msystem }}
     defaults:
@@ -53,10 +53,8 @@ jobs:
       with:
         msystem: ${{ matrix.sys.msystem }}
         update: true
-        install: >
-          base-devel
-          git
-          mingw-w64-${{ matrix.sys.arch }}-toolchain
+        install: base-devel git
+        pacboy: toolchain:p
 
     - name: '🏳️ Build ${{ matrix.tool }}'
       run: |
