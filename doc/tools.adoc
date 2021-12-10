@@ -147,6 +147,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=9790]
  PKGRef:pr[num=9997]
  PKGRef:pr[num=10198]
+ PKGRef:pr[num=10282]
 |https://github.com/YosysHQ/nextpnr/issues/546[#546]
 |✔️
 
@@ -253,6 +254,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=8954]
  PKGRef:pr[num=9111]
  PKGRef:pr[num=9790]
+ PKGRef:pr[num=10282]
 |PKGRef:pr[num=2681, repo=verilator/verilator]
  PKGRef:pr[num=2685, repo=verilator/verilator]
 |❔
@@ -376,6 +378,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=9160]
  PKGRef:pr[num=9280]
  PKGRef:pr[num=10224]
+ PKGRef:pr[num=10282]
 |PKGRef:pr[num=65, repo=trabucayre/openFPGALoader]
 |✔️
 
