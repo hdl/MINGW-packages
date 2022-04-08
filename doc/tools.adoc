@@ -263,6 +263,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=9790]
  PKGRef:pr[num=10282]
  PKGRef:pr[num=10587]
+ PKGRef:pr[num=11247]
 |PKGRef:pr[num=2681, repo=verilator/verilator]
  PKGRef:pr[num=2685, repo=verilator/verilator]
 |❔
@@ -389,6 +390,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=10224]
  PKGRef:pr[num=10282]
  PKGRef:pr[num=10449]
+ PKGRef:pr[num=11213]
 |PKGRef:pr[num=65, repo=trabucayre/openFPGALoader]
 |✔️
 
