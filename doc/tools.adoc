@@ -156,6 +156,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=10282]
  PKGRef:pr[num=10449]
  PKGRef:pr[num=10505]
+ PKGRef:pr[num=11468]
 |https://github.com/YosysHQ/nextpnr/issues/546[#546]
 |✔️
 
