@@ -61,6 +61,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=11897]
  PKGRef:pr[num=12901]
  PKGRef:pr[num=13819]
+ PKGRef:pr[num=15939]
 |
 |✔️
 
@@ -277,6 +278,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=12900]
  PKGRef:pr[num=13820]
  PKGRef:pr[num=14598]
+ PKGRef:pr[num=15350]
 |PKGRef:pr[num=2681, repo=verilator/verilator]
  PKGRef:pr[num=2685, repo=verilator/verilator]
  PKGRef:pr[num=3471, repo=verilator/verilator]
