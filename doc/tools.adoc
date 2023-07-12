@@ -345,6 +345,7 @@ The following tables summarise the state (🟪 upstreamed, 🟩 ready but not up
  PKGRef:pr[num=2512, repo=YosysHQ/yosys]
  PKGRef:pr[num=2514, repo=YosysHQ/yosys]
  PKGRef:pr[num=2515, repo=YosysHQ/yosys]
+ PKGRef:pr[num=13821]
 |✔️
 
 |PKGRef:awesome[tool=Z3]
